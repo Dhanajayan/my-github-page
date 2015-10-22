@@ -1,0 +1,38 @@
+/** Title: my github page
+	author: Dhananjayan
+*/	
+*{
+	font-family: "Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+.bodycontent{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+/*header section */
+.author{
+	width: 100%;
+	text-align: center;
+	color: white;
+	background-color: #2ECC71;
+	border-radius: 10px;
+}
+/*content section*/
+.content{
+	background-color: #9B59B6;
+}
+/*#firstrow{
+	float: left;
+}*/
+#firstrow img{
+	width: 100%;
+	height: auto;
+}
+/*footer section*/
+.foot{
+	text-align: center;
+	color: white;
+	background-color: #2ECC71;
+	border-radius: 10px;
+}	
