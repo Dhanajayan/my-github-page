@@ -36,6 +36,13 @@
 	width: 100%;
 	height: auto;
 }
+#firstrow #hidden{
+	width: 50%;
+	display: none;
+}
+#firstrow#first:hover div#hidden{
+	display: inline;
+}
 /*footer section*/
 .foot{
 	text-align: center;
