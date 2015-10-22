@@ -26,14 +26,14 @@
 }
 #firstrow #first{
 	float: left;
-	width: 50%;
+	width: 50%;	
 }
 #firstrow #second{
 	float: left;
 	width: 50%;
 }
 #firstrow img{
-	width: 50%;
+	width: 100%;
 	height: auto;
 }
 /*footer section*/
@@ -45,4 +45,16 @@
 	clear: both;
 	height: 40px;
 	width: 100%;
-}	
+}
+
+@media(max-width: 750px){
+	
+	#firstrow #first{
+		width: 100%;
+		float: left;
+	}
+	#firstrow #second{
+		width: 100%;
+		float: left;
+	}
+}		
