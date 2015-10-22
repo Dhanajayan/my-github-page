@@ -7,8 +7,6 @@
 	margin: 0px;
 }
 .bodycontent{
-	margin-left: 200px;
-	margin-right: 200px;
 	box-shadow: 1px 1px 5px -1px;
 	border-radius: 10px;
 }
@@ -45,4 +43,6 @@
 	background-color: #2ECC71;
 	border-radius: 10px;
 	clear: both;
+	height: 40px;
+	width: 100%;
 }	
