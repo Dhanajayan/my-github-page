@@ -59,8 +59,40 @@
 	padding: 20px;
 	border-radius: 5px;
 }
+/** content */
+.contentbod{
+	width: 100%;
+	float: left;
 
+}
+
+.contentbod .first{
+	width: 30%;
+	margin-top: 10px;
+	float: left;
+	box-shadow: 0px 0px 5px -1px;
+	margin: 15px;	
+	
+}
+
+
+.contentbod .second{
+	width: 30%;
+	margin-top: 10px;
+	float: left;
+	box-shadow: 0px 0px 5px -1px;
+	margin: 15px;
+}
+
+.contentbod .third{
+	width: 30%;
+	margin-top: 10px;
+	float: left;
+	box-shadow: 0px 0px 5px -1px;
+	margin: 15px;
+}
 .foot{
 	color: #ffffff;
 	background-color: #E74C3C;
+	clear: both;
 }
