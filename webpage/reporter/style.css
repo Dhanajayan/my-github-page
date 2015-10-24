@@ -1,0 +1,66 @@
+/**
+  *Title: Reporter
+  *author: Dhananjayan
+*/
+
+*{
+	font-family: "Roboto Slab",serif;
+	padding: 0px;
+	margin: 0px;
+ }
+
+.heading{
+	width: 100%;
+	background-color: #E74C3C;
+	color: #ffffff;
+	overflow: hidden;
+	position: fixed;
+	
+}
+.heading .logo{
+	float: left;
+	padding: 10px;
+}
+
+.heading .menu{
+	float: right;
+}
+
+.menu{
+	padding: 20px;
+}
+
+.menu ul li{
+	display: inline;
+	padding: 5px;
+}
+
+
+.headerimage{
+	clear: both;
+}
+
+.headerimage img{
+	width: 100%;
+	height: auto;
+}
+
+.headerimage .titlesec{
+	position: absolute;
+	top: 200px;
+	left: 100px;
+	background: -webkit-linear-gradient(left, #E74C3C, #E74C00);
+	background:-o-linear-gradient(left, #E74C3C, #E74C00);
+	background:-moz-linear-gradient(left, #E74C3C, #E74C00);
+	background: linear-gradient(left, #E74C3C, #E74C00);
+	background-color: #E74C3C;
+	opacity: 0.7;
+	color: #000000;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.foot{
+	color: #ffffff;
+	background-color: #E74C3C;
+}
