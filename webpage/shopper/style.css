@@ -115,4 +115,60 @@ h1{
 	clear: both;
 	box-shadow: 0px 0px 5px -2px;
 }
-	 
+
+@media( max-width: 1320px){
+	
+	.post .first{
+		width: 300px;
+	}
+	.post .second{
+		width: 300px;
+	}
+	.post .third{
+		width: 300px;
+	}
+	.post .forth{
+		width: 900px;
+	}
+}
+
+@media( max-width: 1130px) {
+	
+	.post .first{
+		width: 250px;
+	}
+	.post .second{
+		width: 250px;
+	}
+	.post .third{
+		width: 250px;
+	}
+	.post .forth{
+		width: 750px;
+	}
+
+}
+
+@media( max-width: 1000px) {
+		
+	.post .first{
+		width: 300px;
+		float: left;
+	}
+	.post .second{
+		width: 300px;
+		float: left;
+
+	}
+	.post .third{
+		width: 300px;
+		float: left;
+	}
+	.post .forth{
+		width: 300px;
+		float: left;
+	}
+	.menu {
+		font-size: 24px;
+	}
+}	 
