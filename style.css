@@ -118,9 +118,13 @@ a span:after {
 	float: left;
 	width: 50%;	
 }
-#firstrow img:hover {
-	box-shadow: 1px 1px 5px 0px;
-}
+/** #firstrow img:hover {
+	-webkit-transform: rotateY(45deg);
+
+	transform: rotateY(45deg);
+	-webkit-backface-visibility: visible;
+	backface-visibility: visible; 
+}  */
 #firstrow #second{
 	float: left;
 	width: 50%;
