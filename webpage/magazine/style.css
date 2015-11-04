@@ -1,0 +1,49 @@
+/** 
+   Title: Magazine
+   author: Dhananjayan
+*/
+* {
+	padding: 0px;
+	margin: 0px;
+	color: #ffffff;
+}
+
+#logo {
+	
+	float: left;
+
+}
+body{
+	background-image: url("bg.jpg");
+}
+
+.header{
+	background-color: #F1C40F;
+	overflow: hidden;
+	display: fixed;
+	box-shadow: inset 1px 1px 5px 0px #F1C40F; 
+	opacity: 0.7;
+}
+#menu ul li{
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	transition: 1s linear ,opacity 5s linear 3s;
+}
+
+#menu ul ul{
+	display: none;
+}
+
+#menu ul li:hover{
+	border-bottom: 2px solid red;
+	color: red;
+	font-weight: 50px;
+}
+#menu {
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+
+}
+	
