@@ -118,6 +118,9 @@ a span:after {
 	float: left;
 	width: 50%;	
 }
+#firstrow img:hover {
+	box-shadow: 1px 1px 5px 0px;
+}
 #firstrow #second{
 	float: left;
 	width: 50%;
