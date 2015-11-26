@@ -1,0 +1,48 @@
+.front{
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+}
+
+.back{
+
+	text-align: center;
+	margin-top: 200px;
+	
+	margin-left: 480px;
+	margin-right: 480px;
+	
+	padding: 40px;
+
+
+	box-shadow: 1px 1px 19px -7px;
+
+}
+
+.upper {
+	float: left;
+	width: 500px;
+	height: 300px;
+	margin-left: 415px;
+	margin-right: 300px;
+	text-align: center;
+	box-shadow: -1px 0px 6px -1px;
+}
+	
+#right {
+	border: 1px solid red;
+	border-left: 1px solid red;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	
+}
+
+#left {
+	border: 1px solid red;
+	border-right: 1px;
+	border-top: 1px;
+	border-bottom: 1px;
+
+}
