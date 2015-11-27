@@ -23,6 +23,14 @@
 	background-color: #2ECC71;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	background: -wekit-linear-gradient(90deg,#2ECC71,#27AE60);
+	background: -moz-linear-gradient(90deg, #2ECC71, #27AE60);
+	background: -o-linear-gradient(90deg, #2ECC71, #27AE60);
+	background: linear-gradient(90deg, #2ECC71, #27AE60);
+	-webkit-box-shadow: 2px 2px 60px -17px #000;
+	-moz-box-shadow: 2px 2px 60px -17px #000;
+	-o-box-shadow: 2px 2px 60px -17px #000;
+	box-shadow: 2px 2px 60px -17px #000;
 }
 .about
 {
@@ -133,9 +141,9 @@ a span:after {
 	margin-top: 10px;
 	margin-bottom: 5px; 
 	width: 50%;	
-	-moz-box-shadow: 1px 1px 10px -5px;
-	-webkit-box-shadow: 1px 1px 5px -5px;
-	box-shadow: 1px 1px 10px -5px;
+	-moz-box-shadow: 1px 1px 10px -5px #2ECC71;
+	-webkit-box-shadow: 1px 1px 10px -5px #2ECC71;
+	box-shadow: 1px 1px 10px -5px #2ECC71;
 
 }
 /** #firstrow img:hover {
@@ -151,7 +159,7 @@ a span:after {
 	margin-bottom: 5px;
 	width: 50%;
 	-moz-box-shadow: 1px 1px 10px -5px #2ECC71;
-	-webkit-box-shadow: 1px 1px 5px -5px #2ECC71;
+	-webkit-box-shadow: 1px 1px 10px -5px #2ECC71;
 	box-shadow: 1px 1px 10px -5px #2ECC71;
 
 }
@@ -160,22 +168,23 @@ a span:after {
 	height: auto;
 	
 }
-#firstrow #hidden{
-	width: 50%;
-	display: none;
-}
-#firstrow #first:hover div#hidden{
-	display: inline;
-}
+
 
 #firstrow h2 {
-	background-color: #2ECC71;
+	
 	color: white;
 }
 #image {
 	-webkit-box-shadow: 1px 7px 23px -10px;
 	-moz-box-shadow: 1px 7px 23px -10px;
 	box-shadow: 1px 7px 23px -10px;
+}
+
+#heading {
+	background: -wekit-linear-gradient(90deg,#2ECC71,#27AE60);
+	background: -moz-linear-gradient(90deg, #2ECC71, #27AE60);
+	background: -o-linear-gradient(90deg, #2ECC71, #27AE60);
+	background: linear-gradient(90deg, #2ECC71, #27AE60);
 }
 /*footer section*/
 .foot{
@@ -208,4 +217,43 @@ a span:after {
 		
 
 }
+
+@media(max-width: 930px) {
+	
+	#firstrow #first {
+		width: 70%;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	#firstrow #second{
+		width: 70%;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	#firstrow #heading h2 {
+		font-size: 35px;
+	}
+}
+
+@media(max-width: 400px) {
+	
+	#firstrow #first {
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	#firstrow #second{
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	#firstrow #heading h2 {
+		font-size: 20px;
+	}
+}
+
 /* commit from windows */
