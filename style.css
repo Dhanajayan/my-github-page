@@ -1,8 +1,14 @@
 /** Title: my github page
 	author: Dhananjayan
 */	
+@font-face {
+	font-family: 'Orbitron';
+	font-style: normal;
+	font-weight: 200;
+	src: local('Orbitron Regular'), local('Orbitron-Regular'), url(Orbitron/Orbitron-Regular.ttf) format('truetype');
+}
 *{
-	font-family: 'Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;
+	font-family: 'Orbitron','Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;
 	padding: 0px;
 	margin: 0px;
 }
@@ -23,20 +29,20 @@
 	padding: 0px;
 }
 h1 {
- font-family:  'Lobster', Georgia, Times, serif;
+ font-family:  'Orbitron','Lobster', Georgia, Times, serif;
   color: #2b2b2b;
 	font-size: 50px;
 }
 h2 {
-	font-family: 'Lobster', Georgia, Times, serif;
+	font-family: 'Orbitron','Lobster', Georgia, Times, serif;
 	color: #2b2b2b;
 	font-size: 40px;
 	padding: 5px;
 }
 
 p {
-    font-family: 'Lobster', Georgia, Times, serif;
-    font-size: 20px;
+    font-family: 'Orbitron','Lobster', Georgia, Times, serif;
+    font-size: 15px;
 	
 }
 
