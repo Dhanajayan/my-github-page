@@ -118,6 +118,14 @@ a span:after {
 	float: left;
 	width: 50%;	
 }
+#firstrow #first {
+	margin-left: 200px;
+	margin-right: 200px;
+}
+#firstrow #second {
+	margin-left: 200px;
+	margin-right: 200px;
+}
 /** #firstrow img:hover {
 	-webkit-transform: rotateY(45deg);
 
@@ -137,7 +145,7 @@ a span:after {
 	width: 50%;
 	display: none;
 }
-#firstrow#first:hover div#hidden{
+#firstrow #first:hover div#hidden{
 	display: inline;
 }
 /*footer section*/
