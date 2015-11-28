@@ -40,11 +40,12 @@ h1 {
  font-family:  'Orbitron','Lobster', Georgia, Times, serif;
   color: #2b2b2b;
 	font-size: 50px;
+	text-shadow: 1px 1px black;
 }
 h2 {
 	font-family: 'Orbitron','Lobster', Georgia, Times, serif;
 	color: #2b2b2b;
-	font-size: 40px;
+	font-size: 30px;
 	padding: 5px;
 }
 
@@ -194,6 +195,15 @@ a span:after {
 	clear: both;
 	height: 60px;
 	width: 100%;
+	-webkit-shadow: 1px -32px 89px -22px black;
+	-o-shadow: 1px -32px 89px -22px black;
+	-moz-shadow: 1px -32px 89px -22px black;
+	box-shadow:1px -32px 89px -22px black;
+	background: -wekit-linear-gradient(90deg,#2ECC71,#27AE60);
+	background: -moz-linear-gradient(90deg, #2ECC71, #27AE60);
+	background: -o-linear-gradient(90deg, #2ECC71, #27AE60);
+	background: linear-gradient(90deg, #2ECC71, #27AE60);
+	
 }
 
 @media(max-width: 750px){
@@ -233,7 +243,7 @@ a span:after {
 		margin-bottom: 5px;
 	}
 	#firstrow #heading h2 {
-		font-size: 35px;
+		font-size: 25px;
 	}
 }
 
@@ -256,4 +266,6 @@ a span:after {
 	}
 }
 
-/* commit from windows */
+
+
+
