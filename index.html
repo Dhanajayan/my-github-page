@@ -12,7 +12,14 @@
 	<!--<link href="http://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet" type="text/css"> -->
 <!--		<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"> -->
 	 <!--   <link href="http://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css"> -->
-		
+		<script src="jquery-1.9.1.min.js" type="text/javascript"> </script>
+		<script type="text/javascript">
+			$('#link').click(function() {
+				$("html, body").animate({ scrollTop:0 },4000);
+				return false;
+			});
+		</script>
+			
 	</head>
 	<body>
 
@@ -50,6 +57,9 @@
 					</div> 
 				</div>  
 				
+			</div>
+			<div id="scroll" style="float: right; right-margin: 20px;">
+			<a href="#" id="link"><img src="img/rocket.png"></img></a>
 			</div>
 		
 		<div class="foot">

@@ -7,6 +7,8 @@
 	font-weight: 200;
 	src: local('Orbitron Regular'), local('Orbitron-Regular'), url(Orbitron/Orbitron-Regular.ttf) format('truetype');
 }
+
+
 *{
 	font-family: 'Orbitron','Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;
 	padding: 0px;
@@ -34,7 +36,7 @@
 }
 .about
 {
-	padding: 0px;
+	padding: 5px;
 }
 h1 {
  font-family:  'Orbitron','Lobster', Georgia, Times, serif;
@@ -133,7 +135,7 @@ a span:after {
 /* hover roll ends */
 /*content section*/
 .content{
-/*	background-color: #9B59B6; */
+/*	background-color: grey;  */
 }
 
 #firstrow #first {
@@ -142,9 +144,9 @@ a span:after {
 	margin-top: 10px;
 	margin-bottom: 5px; 
 	width: 50%;	
-	-moz-box-shadow: 1px 1px 10px -5px #2ECC71;
-	-webkit-box-shadow: 1px 1px 10px -5px #2ECC71;
-	box-shadow: 1px 1px 10px -5px #2ECC71;
+	-moz-box-shadow: 1px 1px 10px -5px gray;
+	-webkit-box-shadow: 1px 1px 10px -5px gray;
+	box-shadow: 1px 1px 10px -5px gray;
 
 }
 /** #firstrow img:hover {
@@ -159,17 +161,21 @@ a span:after {
 	margin-top: 10px;
 	margin-bottom: 5px;
 	width: 50%;
-	-moz-box-shadow: 1px 1px 10px -5px #2ECC71;
-	-webkit-box-shadow: 1px 1px 10px -5px #2ECC71;
-	box-shadow: 1px 1px 10px -5px #2ECC71;
+	-moz-box-shadow: 1px 1px 10px -5px gray;
+	-webkit-box-shadow: 1px 1px 10px -5px gray;
+	box-shadow: 1px 1px 10px -5px gray;
 
 }
-#firstrow img{
+#firstrow #first img{
 	width: 100%;
 	height: auto;
 	
 }
 
+#firstrow #second img {
+	width: 100%;
+	height: auto;
+}
 
 #firstrow h2 {
 	
@@ -186,6 +192,15 @@ a span:after {
 	background: -moz-linear-gradient(90deg, #2ECC71, #27AE60);
 	background: -o-linear-gradient(90deg, #2ECC71, #27AE60);
 	background: linear-gradient(90deg, #2ECC71, #27AE60);
+}
+
+/* rocket */
+
+#scroll {
+	transition: 400ms ease-in;
+}
+#scroll:hover {
+	border-bottom: 5px solid red;
 }
 /*footer section*/
 .foot{
