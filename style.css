@@ -42,13 +42,19 @@ h1 {
  font-family:  'Orbitron','Lobster', Georgia, Times, serif;
   color: #2b2b2b;
 	font-size: 50px;
-	text-shadow: 1px 1px black;
 }
 h2 {
 	font-family: 'Orbitron','Lobster', Georgia, Times, serif;
 	color: #2b2b2b;
 	font-size: 30px;
 	padding: 5px;
+	text-shadow: -1px 4px 8px black;
+}
+h5 {
+	font-family: 'Orbitron','Lobster', Georgia, Times, serif;
+	color: #2b2b2b;
+	font-size: 10px;
+	text-shadow: -1px 4px 8px black;
 }
 
 p {
@@ -58,7 +64,7 @@ p {
 }
 
 h5 {
-    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-family: 'Orbitron','Cabin', Helvetica, Arial, sans-serif;
     font-size: 25px;
     line-height: 25px;
     text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
@@ -202,6 +208,10 @@ a span:after {
 #scroll:hover {
 	border-bottom: 5px solid red;
 }
+
+#link {
+	border-radius: 50%;
+}
 /*footer section*/
 .foot{
 	text-align: center;
@@ -220,6 +230,8 @@ a span:after {
 	background: linear-gradient(90deg, #2ECC71, #27AE60);
 	
 }
+
+/*** media adjustment  ***/
 
 @media(max-width: 750px){
 	
