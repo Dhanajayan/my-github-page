@@ -1,0 +1,111 @@
+/** Title: my github page
+	author: Dhananjayan
+*/	
+
+@font-face {
+	font-family: 'Orbitron';
+	font-weight: 200;
+	font-style: normal;
+	src: local('Orbitron Regular'), local('Orbitron-Regular'), url(Orbitron/Orbitron-Regular.ttf) format('truetype');
+}
+
+* {
+	font-family: 'Orbitron',sans serif;
+	border: 0px;
+	padding: 0px;
+
+
+}
+
+body {
+	background-image: url('wallpa.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top center;
+	background-size: cover;
+}
+
+h1 {
+	padding: 10px;
+	margin-top: 75px;
+	font-size: 40px;
+	position: relative;
+	top: 75px;
+	left: 5px;
+}
+
+p {
+	padding: 10px;
+}
+
+.main-content {
+	width: 40%;
+	height: 400px;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	color: white;
+	background-color: black;
+	opacity: 0.5;
+
+}
+
+
+.header-image {
+	background-image: url('bg');
+	height: 150px;
+}
+
+.author img {
+	border-radius: 50%;
+	padding: 10px;
+
+}
+
+.author {
+
+	display: block;
+	float: left;
+	overflow: hidden;
+}
+.author-details{
+	display: block ;
+	float: left;
+	overflow: hidden;
+}
+
+h5 {
+	margin-bottom: unset;
+}
+
+.author-details p {
+	margin-top: unset;
+	font-size: 13px;
+	padding-left: unset;
+}
+
+.author-comment p {
+	font-size: 15px;
+	float: left;
+}
+
+.author-comment {
+	float: left;
+	width: 60%;
+}
+
+#triangle-down { 
+	position: relative;
+	top: 0px;
+	left: 25px;
+	width: 0;
+	height: 0;
+	 border-left: 15px solid transparent;
+	 border-right: 15px solid transparent;
+	 border-top: 30px solid #54C9DA;
+ } 
+
+.content-text{
+	padding: 10px;
+	overflow: hidden;
+}
