@@ -19,6 +19,12 @@
 }
 
 
+body {
+	background-image: url('gamechangebg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .first {
 	width: 30%;
 	float: left;
@@ -26,6 +32,11 @@
 	background-color: black;
 	position: relative;
 	overflow: hidden;
+
+	-webkit-linear-gradient:to right ,black,#7BBF7F;
+	-o-linear-gradient: to right, black, #7BBF7F;
+	-moz-linear-gradient: to right, black, #7BBF7F;
+	linear-gradient: to right, black, #7BBF7F;
 }
 
 .second {
@@ -35,6 +46,7 @@
 	background-color: black;
 	position: relative;
 	overflow: hidden;
+
 }
 
 .third {
@@ -44,6 +56,7 @@
 	background-color: black;
 	position: relative;
 	overflow: hidden;
+
 }
 
 #image-div {
@@ -60,7 +73,7 @@
 	top: 0px;
 	width: 100%;
 	height: 100%;
-	z-index: 1;
+	z-index: -1;
 }
 
 #image-div img {
@@ -113,7 +126,7 @@
 .author-comment {
 	float: right;
 	width: 50%;
-	background-color: #7FBF7F;
+	background-color:#FBAA48;
 	color: black;
 	position: relative;
 	bottom: 0px;
@@ -138,4 +151,7 @@
 	color: black;
 }
 
+.wrap {
+	padding-top: 120px;
+}
 
