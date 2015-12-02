@@ -1,0 +1,92 @@
+/** 
+   Title: Magazine
+   author: Dhananjayan
+*/
+
+@font-face {
+	font-family: 'Pacifico';
+	font-weight: 200;
+	font-style: normal;
+	src: local('Pacifico'), local('Pacifico'), url(Pacifico/Pacifico.ttf) format('truetype');
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
+	padding-top: 10px;
+	padding-bottom: 4px;
+}
+* {
+	font-family: 'Pacifico', sans serif;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+#logo {
+	
+	float: left;
+
+}
+body{
+	}
+
+.header{
+	
+	overflow: hidden;
+	float: left;
+	opacity: 0.7;
+	width: 100%;
+}
+
+.content{
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 750px;
+	clear: both;
+	color: white;
+	-webkit-box-shadow: 1px 4px 17px -3px black;
+	-o-box-shadow: 1px 4px 17px -3px black;
+	-moz-box-shadow: 1px 4px 17px -3px black;
+	box-shadow: 1px 4px 17px -3px black;
+	
+}
+#menu ul li{
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	transition: 500ms ease-in ,opacity 1s ease-in 3s;
+}
+
+#menu ul ul{
+	display: none;
+}
+
+#menu ul li:hover{
+	border-bottom: 2px solid red;
+	color: red;
+	font-weight: 50px;
+}
+#menu {
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+
+
+}
+
+#people{
+	clear: both;	
+	color: black;
+	width: 100%;
+}
+
+.first {
+	width: 70%;
+	margin: auto;	
+}
