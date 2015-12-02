@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>Game Changer</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+	</head>
+	<body>
+		<div class="first-envelope">
+		<div class="first">
+			<div id="image-div">
+				<img src="ghost-image.jpg">
+			</div>
+			<div id="hidden-div">
+				<h2>hello</h2>
+			</div>
+			<div class="next-div">
+			
+
+
+
+			</div>
+		</div>
+			<div class="hello">
+			<h2>jdsldfj</h2>
+			</div>
+		</div>
+		<div class="second">
+			<div id="image-div">
+				<img src="crysis-image.jpg">
+			</div>
+			<div id="hidden-div">
+				<h2>hello</h2>
+			</div>
+		</div>
+		<div class="third">
+			<div id="image-div">
+				<img src="assassin-image.jpg">
+			</div>
+			<div id="hidden-div">
+				<h2>hello</h2>
+			</div>
+		</div>
+	</body>
+</html>

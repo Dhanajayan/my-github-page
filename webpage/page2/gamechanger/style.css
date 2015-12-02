@@ -2,10 +2,20 @@
  * author: Dhananjayan
  */
 
+
+@font-face {
+	font-family: 'BlackOpsOne';
+	font-weight: 200;
+	font-style: normal;
+	src: local('BlackOpsOne Regular'), local('BlackOpsOne-Regular'), url(BlackOpsOne/BlackOpsOne-Regular.ttf) format('truetype');
+}
+
 *{
 	padding: 0px;
 	margin: 0px;
 	overflow: hidden;
+	color: white;
+	font-family: 'BlackOpsOne', sans serif;
 }
 
 
@@ -57,4 +67,75 @@
 	width: 100%;
 	height: auto;
 }
+
+#next-div {
+	background-color: black;
+	color: white;
 	
+}	
+
+.author img {
+	border-radius: 50%;
+	padding: 10px;
+
+}
+
+.author-content {
+	overflow: hidden;
+	clear: both;
+	color: white;
+}
+.author {
+
+	display: block;
+	float: left;
+	overflow: hidden;
+}
+.author-details{
+	display: block ;
+	float: left;
+	overflow: hidden;
+	padding-top: 23px;
+}
+
+
+.author-details p {
+	margin-top: unset;
+	font-size: 13px;
+	padding-left: unset;
+}
+
+.author-comment p {
+	font-size: 15px;
+	float: left;
+}
+
+.author-comment {
+	float: right;
+	width: 50%;
+	background-color: #7FBF7F;
+	color: black;
+	position: relative;
+	bottom: 0px;
+	right: 0px;
+	padding-top: 8px;
+	margin-top: 53px;
+}
+
+#hidden-div h2 {
+	padding-top: 20px;
+	text-align: center;
+
+}
+
+#hidden-div p {
+	text-align: center;
+}
+
+
+.icon {
+	float:right;
+	color: black;
+}
+
+
