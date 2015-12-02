@@ -60,7 +60,7 @@ body{
 	display: inline-block;
 	margin-left: 10px;
 	margin-right: 10px;
-	transition: 500ms ease-in ,opacity 1s ease-in 3s;
+	transition: 500ms ease-in;
 }
 
 #menu ul ul{
