@@ -13,7 +13,7 @@
 *{
 	padding: 0px;
 	margin: 0px;
-	overflow: hidden;
+
 	color: white;
 	font-family: 'BlackOpsOne', sans serif;
 }
@@ -26,7 +26,7 @@ body {
 }
 
 .first {
-	width: 30%;
+	width: 400px;
 	float: left;
 	margin: 20px;
 	background-color: black;
@@ -36,7 +36,7 @@ body {
 }
 
 .second {
-	width: 30%;
+	width:400px;
 	float: left;
 	margin: 20px;
 	background-color: black;
@@ -46,7 +46,7 @@ body {
 }
 
 .third {
-	width: 30%;
+	width:400px;
 	float: left;
 	margin: 20px;
 	background-color: black;
@@ -58,7 +58,6 @@ body {
 #image-div {
 	width: 90%;
 	margin: auto;
-
 
 }
 
@@ -153,5 +152,8 @@ body {
 
 .wrap {
 	padding-top: 120px;
+	over-flow: scoll-x;
+	width: 100%;
+	margin: auto;
 }
 
