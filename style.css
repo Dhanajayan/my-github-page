@@ -200,6 +200,83 @@ a span:after {
 	background: linear-gradient(90deg, #2ECC71, #27AE60);
 }
 
+/* anchor */
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: black;
+}
+
+/* next prev button */
+
+.next-button {
+	margin-right: 10%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+.next-button input[type="button"] {
+	background-color: #2ECC71;
+	padding: 5px;
+	background: -webkit-linear-gradient(90deg,#2ECC71,#27AE60);
+	background: -moz-linear-gradient(90deg,#2ECC71,#27AE60);
+	background: -o-linear-gradient(90deg,#2ECC71,#27AE60);
+	background: linear-gradient(90deg,#2ECC71,#27AE60);
+	border: 0px;
+	width: 100px;
+	color: white;
+	text-decoration: none;
+	transition: 500ms ease-in;
+}
+
+.next-button input[type="button"]:hover {
+	background: -webkit-linear-gradient(-90deg, #2ECC71, #27AE60);
+	background: -moz-linear-gradient(-90deg, #2ECC71, #27AE60);
+	background: -o-linear-gradient(-90deg,#2ECC71, #27AE60);
+	background: linear-gradient(-90deg,#2ECC71, #27AE60);
+	-webkit-box-shadow: 1px 1px 10px -3px;
+	-moz-box-shadow: 1px 1px 10px -3px;
+	-o-box-shadow: 1px 1px 10px -3px;
+	box-shadow: 1px 1px 10px -3px;
+	color: black;
+}
+
+.prev-button {
+	margin-left: 10%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.prev-button input[type="button"] {
+	background-color: #2ECC71;
+	padding: 5px;
+	background: -webkit-linear-gradient(90deg,#2ECC71,#27AE60);
+	background: -moz-linear-gradient(90deg,#2ECC71,#27AE60);
+	background: -o-linear-gradient(90deg,#2ECC71,#27AE60);
+	background: linear-gradient(90deg,#2ECC71,#27AE60);
+	border: 0px;
+	width: 100px;
+	color: white;
+	text-decoration: none;
+	transition: 500ms ease-in;
+	
+}
+
+.prev-button input[type="button"]:hover {
+	background: -webkit-linear-gradient(-90deg, #2ECC71, #27AE60);
+	background: -moz-linear-gradient(-90deg, #2ECC71, #27AE60);
+	background: -o-linear-gradient(-90deg,#2ECC71, #27AE60);
+	background: linear-gradient(-90deg,#2ECC71, #27AE60);
+	-webkit-box-shadow: 1px 1px 10px -3px;
+	-moz-box-shadow: 1px 1px 10px -3px;
+	-o-box-shadow: 1px 1px 10px -3px;
+	box-shadow: 1px 1px 10px -3px;
+	color: black;
+}
+	
 /* rocket */
 
 #scroll {
