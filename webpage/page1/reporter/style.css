@@ -3,8 +3,14 @@
   *author: Dhananjayan
 */
 
+@font-family {
+	font-family: 'Great Vibes';
+	font-weight: 200px;
+	font-style: normal;
+	src: local('GreatVibes Regular'), local('GreatVibes-Regular'), url(Great_Vibes/GreatVibes-Regular.ttf) format('truetype');
+}
 *{
-	font-family: "Roboto Slab",serif;
+	font-family: 'Great Vibes', sans serif;
 	padding: 0px;
 	margin: 0px;
  }
@@ -93,6 +99,11 @@
 			
 }
 
+.contentbod .first img {
+	width: 100%;
+	height: auto;
+}
+
 .contentbod .first:hover{
 	margin: 5px;
 }
@@ -108,6 +119,11 @@
 	transition: ease 1s;
 }
 
+.contentbod .second img {
+	width: 100%;
+	height: auto;
+}
+
 .contentbod .second:hover{
 	margin: 5px;
 }
@@ -119,6 +135,11 @@
 	float: left;
 	box-shadow: 0px 0px 5px -1px;
 	transition: ease 1s;
+}
+
+.contentbod .third img {
+	width: 100%;
+	height: auto;
 }
 	
 .contentbod .third:hover{

@@ -1,0 +1,120 @@
+
+@import url('font-awesome.css' );
+
+
+@font-face {
+	font-family: 'BlackOpsOne';
+	font-weight: 200;
+	font-style: normal;
+	src: local('BlackOpsOne Regular'), local('BlackOpsOne-Regular'), url(BlackOpsOne/BlackOpsOne-Regular.ttf) format('truetype');
+}
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'BlackOpsOne';
+}
+
+body {
+	background-image: url('gamee.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.wrap {
+	width: 800px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 30px;
+	-webkit-background-origin: content;
+	-moz-background-origin: content;
+	background-origin: content;
+	overflow: hidden;
+	-webkit-box-shadow: 5px 5px 25px -5px gray;
+	-moz-box-shadow: 5px 5px 25px -5px gray;
+	-o-box-shadow: 5px 5px 25px -5px gray;
+	box-shadow: 5px 5px 25px -5px gray;
+	transition: 500ms ease-in;
+}
+
+.wrap:hover {
+	
+	-webkit-box-shadow: inset 5px 5px 25px -5px gray;
+	-moz-box-shadow: inset 5px 5px 25px -5px gray;
+	-o-box-shadow: inset 5px 5px 25px -5px gray;
+	box-shadow: inset 5px 5px 25px -5px gray;
+}
+
+.left-div {
+	width: 350px;
+	float: left;
+}
+
+.left-div img {
+	width: 100%;
+	height: auto;
+}
+
+.right-div {
+	width: 445px;
+	background-color: #A7CEDD;
+	float: left;
+
+	background: -webkit-linear-gradient(to right, #E67E22, #D35400);
+	background: -moz-linear-gradient(to right,#E67E22,#D35400);
+	background: -o-linear-gradient(to right,#E67E22,#D35400);
+	background: linear-gradient(to right,#E67E22,#D35400);
+	opacity: 0.8;
+	color: white;
+	overflow: hidden;
+}
+
+.right-div h1 {
+	padding: 10px;
+}
+
+#heading {
+	width: 40%;
+	float: left;
+}
+#timing {
+	width: 50%;
+	float: left;
+	padding: 0px;
+	padding-top: 8px;
+}
+
+#time {
+	float: left;
+	display: inline-block;
+}	
+
+#place {
+	float: left;
+	width: 50%;
+}
+
+#second {
+	clear: both;
+	padding-left: 5px;
+}
+
+#rating {
+	text-align: center;
+}
+
+#social-links .icon>i{ 
+	padding: 15px;
+}
+
+#apply {
+	background-color: #C0392B;
+	padding: 23.5px;
+}
+
+#time {
+	padding-left: 2px;
+}
+

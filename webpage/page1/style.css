@@ -8,6 +8,13 @@
 	src: local('Orbitron Regular'), local('Orbitron-Regular'), url(Orbitron/Orbitron-Regular.ttf) format('truetype');
 }
 
+@font-face {
+	font-family: 'Righteous';
+	font-weight: 200;
+	font-style: normal;
+	src: local('Righteous Regular'), local('Righteous-Regular'), url(Righteous/Righteous-Regular.ttf) format('truetype');
+}
+
 
 *{
 	font-family: 'Orbitron','Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;
@@ -44,7 +51,7 @@ h1 {
 	font-size: 50px;
 }
 h2 {
-	font-family: 'Orbitron','Lobster', Georgia, Times, serif;
+	font-family: 'Righteous','Orbitron','Lobster', Georgia, Times, serif;
 	color: #2b2b2b;
 	font-size: 30px;
 	padding: 5px;
@@ -58,8 +65,8 @@ h5 {
 }
 
 p {
-    font-family: 'Orbitron','Lobster', Georgia, Times, serif;
-    font-size: 15px;
+    font-family: 'Righteous','Orbitron','Lobster', Georgia, Times, serif;
+    font-size: 17px;
 	
 }
 
@@ -355,6 +362,14 @@ a:hover{
 }
 
 @media(max-width: 400px) {
+		
+	h1 {
+		font-size: 30px;
+	}
+
+	h5 {
+		font-size: 18px;
+	}
 	
 	#firstrow #first {
 		width: 90%;
