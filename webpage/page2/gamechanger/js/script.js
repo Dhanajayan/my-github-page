@@ -5,7 +5,7 @@ $(document).ready(function() {
 	});
 
 	$(".first").mouseleave(function() {
-		$(".first-hide").css("z-index","-1").fadeOut('slow');
+		$(".first-hide").fadeOut('slow');
 	});
 	
 	$(".second").mouseenter(function() {
@@ -13,7 +13,7 @@ $(document).ready(function() {
 	});
 
 	$(".second").mouseleave(function() {
-		$(".second-hide").css("z-index","-1").fadeOut('slow');
+		$(".second-hide").fadeOut('slow');
 	});
 
 	$(".third").mouseenter(function() {
@@ -21,6 +21,6 @@ $(document).ready(function() {
 	});
 
 	$(".third").mouseleave(function() {
-		$(".third-hide").css("z-index","-1").fadeOut('slow');
+		$(".third-hide").fadeOut('slow');
 	});
 });
