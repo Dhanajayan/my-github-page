@@ -3,6 +3,13 @@
 @import url('font-awesome.css' );
 
 @font-face {
+	font-family: 'Cantarell';
+	font-weight: 200;
+	font-style: normal;
+	src: local('Cantarell Regular'), local('Cantarell-Regular'), url(Cantarell-Regular.ttf) format('truetype');
+}
+
+@font-face {
 	font-family: 'Righteous';
 	font-weight: 100;
 	font-style: normal;
@@ -93,6 +100,8 @@ body {
 	background: -o-linear-gradient(90deg, brown, #7F644E);
 	background: linear-gradient(90deg, brown, #7F644E);
 	border-bottom: 2px solid #7F644E;
+	
+	
 }
 
 .member img {
@@ -130,7 +139,10 @@ body {
 	float: left;
 	color: white;
 	margin-top: 13px;
-	
+	-webkit-box-shadow: inset 1px 1px 5px -2px #7F644E;
+	-moz-box-shadow: inset 1px 1px 5px -2px #7F644E;
+	-o-box-shadow: inset 1px 1px 5px -2px #7F644E;
+	box-shadow: inset 1px 1px 5px -2px #7F644E;
 }
 
 .forth-div {
@@ -151,7 +163,7 @@ body {
 	font-size: 15px;
 	padding: 10px;
 	padding-top: 5px;
-	font-family: 'Anton';
+	font-family: 'cantarell';
 	
 	
 }
