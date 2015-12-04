@@ -1,26 +1,26 @@
 $(document).ready(function() {
 	
 	$(".first").mouseenter(function() {
-		$(".first-hide").css("z-index","1").fadein(3000);
+		$(".first-hide").css("z-index","1").fadeIn('slow');
 	});
 
 	$(".first").mouseleave(function() {
-		$(".first-hide").css("z-index","-1").fadeout(3000);
+		$(".first-hide").css("z-index","-1").fadeOut('slow');
 	});
 	
 	$(".second").mouseenter(function() {
-		$(".second-hide").css("z-index","1").fadein(3000);
+		$(".second-hide").css("z-index","1").fadeIn('slow');
 	});
 
 	$(".second").mouseleave(function() {
-		$(".second-hide").css("z-index","-1").fadeout(3000);
+		$(".second-hide").css("z-index","-1").fadeOut('slow');
 	});
 
 	$(".third").mouseenter(function() {
-		$(".third-hide").css("z-index","1").fadein(3000);
+		$(".third-hide").css("z-index","1").fadeIn('slow');
 	});
 
 	$(".third").mouseleave(function() {
-		$(".third-hide").css("z-index","-1").fadeout(3000);
+		$(".third-hide").css("z-index","-1").fadeOut('slow');
 	});
 });
