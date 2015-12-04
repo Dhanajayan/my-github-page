@@ -1,23 +1,50 @@
 
 
+@import url('font-awesome.css' );
+
+@font-face {
+	font-family: 'Righteous';
+	font-weight: 100;
+	font-style: normal;
+	src: local('Righteous Regular'), local('Righteous-Regular'), url(Righteous/Righteous-Regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Anton';
+	font-weight: 200;
+	font-style: normal;
+	src: local('Anton'), local('Anton'), url(Anton/Anton.ttf) format('truetype');
+}
+
 * {
 	padding: 0px;
 	border: 0px;
+	font-family: 'Righteous', sans serif;
 }
 
-/**body {	
+body {	
 	background-image: url('railguard.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-} */
+} 
 
 .wrap {
 	width: 400px;
 	margin: auto;
 	margin-top: 50px;
-	height: 500px;
+	
 	background-color: black;
+	opacity: 0.8;
+	-webkit-box-shadow: 1px 1px 20px 0px;
+	-moz-box-shadow: 1px 1px 20px 0px;
+	-o-box-shadow: 1px 1px 20px 0px;
+	box-shadow: 1px 1px 20px 0px;
+
+	background: -webkit-linear-gradient(90deg, brown, #7F644E);
+	background: -moz-linear-gradient(90deg, brown, #7F644E);
+	background: -o-linear-gradient(90deg, brown, #7F644E);
+	background: linear-gradient(90deg, brown, #7F644E);
 }
 
 .image img {
@@ -28,9 +55,10 @@
 
 .image h3 {
 	position: absolute;
-	top: 165px;
+	top: 142px;
 	color: white;
 	padding-left: 21px;
+	font-size: 30px;
 }
 
 .image h5 {
@@ -41,7 +69,89 @@
 }
 
 .review {
+	padding: 5px;
+	color: black;
+	background: -webkit-linear-gradient(90deg, white, gray);
+	background: -moz-linear-gradient(90deg, white, gray);
+	background: -o-linear-gradient(90deg, white, gray);
+	background: linear-gradient(90deg, white, gray);
+}
+.rating {
+	float: right;
+	position: absolute;
+	top: 304px;
+	margin-left: 286px;
+}
+
+.icon {
+	color: yellow;
+}
+
+.member {
+	background: -webkit-linear-gradient(90deg, brown, #7F644E);
+	background: -moz-linear-gradient(90deg, brown, #7F644E);
+	background: -o-linear-gradient(90deg, brown, #7F644E);
+	background: linear-gradient(90deg, brown, #7F644E);
+	border-bottom: 2px solid #7F644E;
+}
+
+.member img {
+	border-radius: 50%;
+	padding: 10px;
+	background: -webkit-linear-gradient(90deg, white, #7F644E);
+	background: -moz-linear-gradient(90deg, white, #7F644E);
+	background: -o-linear-gradient(90deg, white, #7F644E);
+	background: linear-gradient(90deg, white, #7F644E);
+}
+
+
+.first-div{
+	width: 20%;
+	float: left;
+}
+
+.second-div {
 	width: 100%;
-	height: 100px;
-	background-color: white;
+	float: left;
+}
+
+.second-div h5 {
+	margin: 5px;
+	
+}
+
+.third-div p {
+	margin: 10px;
+	font-size: 12px;
+}
+
+.inner-wrap {
+	width: 30%;
+	float: left;
+	color: white;
+	margin-top: 13px;
+	
+}
+
+.forth-div {
+	width: 50%;
+	float: left;
+	position: relative;
+	left: 95px;
+	top: 20px;
+}
+
+#reviews {
+	width: 100%;
+	color: white;
+	display: inline-block;
+}
+
+#reviews h2 {
+	font-size: 15px;
+	padding: 10px;
+	padding-top: 5px;
+	font-family: 'Anton';
+	
+	
 }
