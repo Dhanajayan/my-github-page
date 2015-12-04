@@ -1,7 +1,9 @@
 $(document).ready(function() {
 	
 	$(".first").mouseenter(function() {
+		
 		$(".first-hide").css("z-index","1").fadeIn('slow');
+		
 	});
 
 	$(".first").mouseleave(function() {
@@ -10,6 +12,7 @@ $(document).ready(function() {
 	
 	$(".second").mouseenter(function() {
 		$(".second-hide").css("z-index","1").fadeIn('slow');
+		
 	});
 
 	$(".second").mouseleave(function() {
@@ -18,6 +21,7 @@ $(document).ready(function() {
 
 	$(".third").mouseenter(function() {
 		$(".third-hide").css("z-index","1").fadeIn('slow');
+		
 	});
 
 	$(".third").mouseleave(function() {

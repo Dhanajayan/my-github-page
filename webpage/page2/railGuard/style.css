@@ -1,0 +1,47 @@
+
+
+* {
+	padding: 0px;
+	border: 0px;
+}
+
+/**body {	
+	background-image: url('railguard.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+} */
+
+.wrap {
+	width: 400px;
+	margin: auto;
+	margin-top: 50px;
+	height: 500px;
+	background-color: black;
+}
+
+.image img {
+
+	width: 100%;
+	height: auto;
+}
+
+.image h3 {
+	position: absolute;
+	top: 165px;
+	color: white;
+	padding-left: 21px;
+}
+
+.image h5 {
+	position: absolute;
+	top: 187px;
+	padding-left: 21px;
+	color: white;
+}
+
+.review {
+	width: 100%;
+	height: 100px;
+	background-color: white;
+}
