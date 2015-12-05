@@ -105,6 +105,9 @@ body {
 	text-align: center;
 }
 
+#social-links .icon {
+	text-align: center;
+}
 #social-links .icon>i{ 
 	padding: 15px;
 }
@@ -112,8 +115,21 @@ body {
 #apply {
 	background-color: #C0392B;
 	padding: 23.5px;
+	color: white;
+	text-align: center;
 }
 
+input[type="button"] {
+	background-color: #C0392B;
+	color: white;
+	
+}
+
+
+a{	text-decoration: none;
+	color: white;
+	
+}
 #time {
 	padding-left: 2px;
 }

@@ -1,0 +1,94 @@
+
+
+
+@font-face {
+	font-family: 'Economica';
+	font-weight: 300;
+	font-style: bold;
+	src: local('Economica Bold'), local('Economica-Bold'), url(Economica/Economica-Bold.ttf) format('truetype');
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Economica',sans serif;
+	font-color: white;
+	
+}
+
+body {
+	background-image: url('musician.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.wrap {
+	width: 700px;
+	margin: auto;
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+	margin-top: 100px;
+	overflow: hidden;
+	height: 400px;
+	-webkit-box-shadow: 5px 5px 22px 5px gray;
+	-o-box-shadow: 5px 5px 22px 5px gray;
+	-moz-box-shadow: 5px 5px 22px 5px gray;
+	box-shadow: 5px 5px 22px 5px gray;
+}
+
+.wrap ul {
+	list-style: none;
+	padding: 10px;
+	font-size: 24px;
+	transition: 1s ease-in;
+}
+
+.wrap li {
+	display: block;
+	float: left;	
+	position: relative;
+	background-color: black;
+	opacity: 0.9;
+	padding-left: 20px;
+	padding-right: 45px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+
+
+.wrap li ul{
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+
+
+
+.wrap li:hover ul{
+	
+	display: block;
+	height: auto;
+	width: 8em;
+	z-index: 1;
+}	
+
+.wrap li ul li {
+	clear: both;
+	border-bottom: 5px solid white;
+	transition: 200ms ease-in;
+}
+
+.wrap li ul li:hover {
+	background-color: white;
+	color: black;
+}
+
+#image img {
+	width: 100%;
+	height: auto;
+}
+
+
