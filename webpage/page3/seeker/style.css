@@ -1,0 +1,32 @@
+
+@import url('font-awesome.css');
+
+* {
+	border: 0px;
+	padding: 0px;
+	font-family: sans serif;
+}
+
+body {
+	background-image: url('seek.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+	
+.wrap {
+	background-color: black;
+	color: white;
+	width: 700px;
+	margin: auto;
+}
+
+ul {
+	list-style: none;
+}
+
+.left {
+	width: 20%;
+	float: left;
+}
+
