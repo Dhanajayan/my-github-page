@@ -73,6 +73,9 @@ ul {
 	float: left;
 	position: relative;
 	font-size: 16px;
+	background-image: url('seeker1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .hidden img {
@@ -127,7 +130,7 @@ ul {
 #forth-sub {
 	position: absolute;
 	top: 0px;
-	padding: 15px;
+
 	width: 200px;
 	background-color: black;
 	z-index: -1;
