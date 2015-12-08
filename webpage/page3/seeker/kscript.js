@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	
-	$('.first').mouseover(function() {
+	$('#hidden').mouseover(function() {
 		
-		alert($(this).text());
+		alert($(this).children().length);
 	});
 });
