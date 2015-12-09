@@ -32,7 +32,12 @@ body {
 	margin: auto;
 	margin-top: 100px;
 	overflow: hidden;
-	opacity: 0.8;
+	opacity: 0.9;
+
+	-webkit-box-shadow: 1px 1px 17px 0px black;
+	-moz-box-shadow: 1px 1px 17px 0px black;
+	-o-box-shadow: 1px 1px 17px 0px black;
+	box-shadow: 1px 1px 17px 0px black;
 }
 .icon {
 	float: left;
@@ -43,23 +48,75 @@ body {
 	text-align: center;
 }
 
+.first .icon {
+	background-color: #2ECC71;
+}
+
+.first #menu-name {
+	transition: 500ms ease-in;
+}
+
+.first #menu-name:hover {
+	background-color: #2ECC71;
+}
+		
 .second {
 	clear: left;
+}
+
+.second #menu-name {
+	transition: 500ms ease-in;
+}
+
+.second #menu-name:hover {
+	background-color: #3498DB;
+}
+
+.second .icon {
+	background-color: #3498DB;
 }
 	
 .third {
 	clear: left;
 }
 
+.third #menu-name {
+	transition: 500ms ease-in;
+}
+
+.third #menu-name:hover {
+	background-color: #9B59B6;
+
+}
+
+.third .icon {
+	background-color: #9B59B6;
+}
+
 .forth {
 	clear: left;
 }
+
+.forth #menu-name {
+	transition: 500ms ease-in;
+}
+
+.forth #menu-name:hover {
+	background-color: #E67E22;
+}
+
+.forth .icon {
+	background-color: #E67E22;
+}
+
 #menu-name {
 	float: left;
 	font-size: 16px;
 	font-weight: 200px;
 	padding: 8px;
+	width: 155px;
 }
+
 ul {
 	list-style: none;
 }
@@ -92,11 +149,19 @@ ul {
 	background-color: black;
 	z-index: -1;
 	height: 325px;
-	opacity: 0.8;
+	border-left: 5px solid #2ECC71;
 }
+
+
+
 
 #first-sub  h4 {
 	padding: 10px;
+	transition: 200ms ease-in;
+}
+
+#first-sub h4:hover {
+	background-color: #2ECC71;
 }
 
 	
@@ -108,10 +173,17 @@ ul {
 	height: 325px;
 	background-color: black;
 	z-index: -1;
+	border-left: 5px solid #3498DB;
+	
 }
 
 #second-sub h4 {
 	padding: 10px;
+	transition: 200ms ease-in;
+}
+
+#second-sub h4:hover {
+	background-color: #3498DB;
 }
 
 #third-sub {
@@ -121,15 +193,23 @@ ul {
 	background-color: black;
 	z-index: -1;
 	height: 325px;
+	border-left: 5px solid #9B59B6;
+	
 }
 
 #third-sub h4 {
 	padding: 10px;
+	transition: 200ms ease-in;
+}
+
+#third-sub h4:hover {
+	background-color: #9B59B6;
 }
 
 #forth-sub {
 	position: absolute;
 	top: 0px;
+	border-left: 5px solid #E67E22;
 
 	width: 200px;
 	background-color: black;
@@ -139,5 +219,9 @@ ul {
 
 #forth-sub h4 {
 	padding: 10px;
+	transition: 200ms ease-in;
 }
 
+#forth-sub h4:hover {
+	background-color: #E67E22;
+}
