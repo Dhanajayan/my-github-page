@@ -1,0 +1,47 @@
+/** 
+    Author: Dhananjayan
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrap {
+}
+
+.first {
+    width: 400px;
+    padding: 5px;
+    margin: 20px;
+    float: left;
+    position: relative;
+}
+
+.hidden {
+    position: absolute;
+    width: 390px;
+    height: 215px;
+    padding: 5px;
+    top: 5px;
+    left: 5px;
+    opacity: 0.5;
+    background-color: red;
+}
+
+
+.hidden h3 {
+    text-align: center;
+    padding: 15px;
+}
+
+.hidden  h5 {
+    text-align: center;
+    padding: 0px;
+}
+
+.first img {
+    width: 100%;
+    height: auto;
+    background-origin: content;
+}
