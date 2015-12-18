@@ -18,7 +18,7 @@
 
 #menu {
     margin-bottom: 20px;
-  
+
     overflow: hidden;
 }
 
@@ -39,6 +39,10 @@ p {
 #pic img {
     width: 100%;
     height: auto;
+}
+
+.image-sec {
+    overflow: hidden;
 }
 
 #word {
@@ -157,9 +161,18 @@ a {
     -webkit-box-shadow: 1px 1px 5px -1px;
     -moz-box-shadow: 1px 1px 5px -1px;
     -o-box-shadow: 1px 1px 5px -1px;
-    box-shadow: 1px 1px 5px -1px; 
+    box-shadow: 1px 1px 5px -1px;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
 }
 
+.first img:hover  {
+    -moz-transform: scale(1.5);
+    -webkit-transfrom: scale(1.5);
+    transform: scale(1.5);
+    
+}
 #con-text {
     position: absolute;
     top: 100px;
