@@ -24,7 +24,7 @@ body {
 }
 
 .wrap {
-	width: 800px;
+	width: 845px;
 	margin: auto;
 	margin-top: 100px;
 	padding: 30px;
@@ -58,17 +58,18 @@ body {
 }
 
 .right-div {
-	width: 445px;
+	width: 455px;
 	background-color: #A7CEDD;
 	float: left;
-
 	background: -webkit-linear-gradient(to right, #E67E22, #D35400);
 	background: -moz-linear-gradient(to right,#E67E22,#D35400);
 	background: -o-linear-gradient(to right,#E67E22,#D35400);
 	background: linear-gradient(to right,#E67E22,#D35400);
-	opacity: 0.8;
+	opacity: 1;
 	color: white;
 	overflow: hidden;
+        padding: 20px;
+        height: 234px;
 }
 
 .right-div h1 {
@@ -84,6 +85,13 @@ body {
 	float: left;
 	padding: 0px;
 	padding-top: 8px;
+        border-left: 0px;
+        transition: border-left 0.6s ease-out,opacity 0.9s;
+        
+}
+#timing:hover {
+        border-left: 5px solid #C0293B;
+        opacity: 2;       
 }
 
 #time {
@@ -114,14 +122,34 @@ body {
 
 #apply {
 	background-color: #C0392B;
+        width: 53%;
+        float:  left ;
 	padding: 23.5px;
 	color: white;
 	text-align: center;
+        background: -moz-linear-gradient(180deg, #E74C3C, #C0392B);
+        background: -webkit-linear-gradient(180deg, #E74C3C, #C0392B);
+        background: -o-linear-gradient(180deg, #E74C3C, #C0392B);
+        background: linear-gradient(180deg, #E74C3C, #C0392B);
+}
+
+#apply:hover {
+        background: -moz-linear-gradient(0deg, #E74C3C, #C0392B);
+        background: -webkit-linear-gradient(0deg, #E74C3C, #C0392B);
+        background: -o-linear-gradient(0deg, #E74C3C, #C0392B);
+        background: linear-gradient(0deg, #E74C3C, #C0392B);
+        -moz-box-shadow: 1px 1px 2px -1px #E74C3C;
+        -webkit-box-shadow: 1px 1px 2px -1px #E74C3C;
+        -o-box-shadow: 1px 1px 2px -1px #E74C3C;
+         box-shadow: 1px 1px 2px -1px #E74C3C;
+        
+}
+ 
+span {
+    color:#C0392B ;
 }
 
 input[type="button"] {
-	background-color: #C0392B;
-	color: white;
 	
 }
 
@@ -134,3 +162,9 @@ a{	text-decoration: none;
 	padding-left: 2px;
 }
 
+
+.left-div img:hover {
+    border-radius: 50%;
+    transition: border-radius 500ms ease-in;
+}
+    
