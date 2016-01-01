@@ -1,43 +1,102 @@
 
+@import url('font-awesome.css');
+
+@font-face {
+    font-family: 'Righteous';
+    font-weight: 200;
+    font-style: normal;
+    src: local('Righeous Regular'), local('Righteous-Regular'), url(Righteous/Righteous-Regular.ttf) format('truetype');
+}
+
 * {
     padding: 0px;
     margin: 0px;
+    font-family: 'Righteous';
+}
+
+body {
+    background: url('grass1.jpg');
+    background-attachment: cover;
+    background-size: fixed;
+    font-weight: 600px;
 }
 
 #wrap {
-    width: 800px;
-    margin: auto;
-    margin-top: 80px;
+    background: -webkit-linear-gradient(right,rgba(1,1,1,0),rgba(1,1,1,1));
+    background: -o-linear-gradient(right,rgba(1,1,1,0), rgba(1,1,1,1));
+    background: -moz-linear-gradient(right, rgba(1,1,1,0), rgba(1,1,1,1));
+    background: linear-gradient(right, rgba(1,1,1,0), rgba(1,1,1,1));
+
+}
+
+.icon {
+    width: 30px;
+    float: left;
+    color: white;
+    padding: 20px;
+}
+
+h3 {
+    float:left;
+    color: white;
+    padding: 20px;
+    padding-top: 25px;
+    padding-left: 5px;
 }
 
 .first {
     margin: 30px;
-    background-color: #27AE60;
-    clear: both;   
+    margin-top: 0px;
     overflow: hidden;
-    background-origin: content;
 }
 
-.first img {
-    width: 100%;
-    height: 100%;
+.author {
+    clear: both;
+    padding: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
 }
 
-.left {
-    width: 35%;
-    float:left;
-    
+#info {
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
-.right {
-    width: 65%;
-    float:left;
+#learn {
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 200px;
+    padding: 10px;
+    background-color: #27AE60;
+    transition: all 500ms ease;
 }
 
-#one {
-    background-image: url('grass1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+#learn:hover {
+    background-color: #2ECC71;
 }
+
+.social {
+    padding: 50px;
+    overflow: hidden;
+}
+
+.fa {
+    width: 50px;
+    float: left;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
 
