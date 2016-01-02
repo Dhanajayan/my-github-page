@@ -76,6 +76,10 @@ h3 {
     background-color: #2ECC71;
 }
 
+#learn:focus {
+    border: 1px dotted black;
+}
+
 .social {
     padding: 50px;
     overflow: hidden;
@@ -96,7 +100,7 @@ a {
 }
 
 a:hover {
-    color: black;
+    color: #3498DB;
 }
 
 
