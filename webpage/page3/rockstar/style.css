@@ -6,7 +6,7 @@
     font-family: 'Open Sans';
     font-weight: 200;
     font-style: normal;
-    src: local('OpenSans Bold'), local('OpenSans-Bold'), url(OpenSans/OpenSans-Bold.ttf) format('truetype');
+    src: local('OpenSans Regular'), local('OpenSans-Regular'), url(OpenSans/OpenSans-Regular.ttf) format('truetype');
 }
 
 * {
@@ -18,6 +18,15 @@
 .wrap {
     margin-top: 100px;
     width: 100%;
+}
+
+h5 {
+    font-weight: 200;
+    font-style: normal;
+}
+
+p {
+    font-size: 15px;
 }
 
 .first {
