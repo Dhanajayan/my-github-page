@@ -2,22 +2,22 @@
 @import url('font-awesome.css');
 
 @font-face {
-	font-family: 'Open Sans';
+	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 200;
-	src: local('OpenSans Regular'), local('OpenSans-Regular'), url(OpenSans/OpenSans-Regular.ttf) format('truetype');
+	src: local('Roboto Regular'), local('Roboto-Regular'), url(Roboto/Roboto-Regular.ttf) format('truetype');
 
 }
 
 * {
 	padding: 0px;
 	margin: 0px;
-	font-family: 'Open Sans', sans serif;
+	font-family: 'Roboto', sans serif;
 }
 
 body {
 	background-color: #97DBFA;
-	font-family: 'Open Sans';
+	font-family: 'Roboto';
 	letter-spacing: 0.5px;
 }
 
@@ -30,8 +30,12 @@ h3 {
 	font-weight: bold;
 }
 
-p{
-	font-size: 12px;
+.ide {
+	font-weight: 200;
+}
+
+p {
+	font-size: 14px;
 }
 
 #user-id {
@@ -74,6 +78,10 @@ p{
 	margin: auto;
 	border-bottom: 1px solid #D8D8D8FF;
 	padding-left: 26px;
+	-webkit-box-shadow: 0px 5px 30px -24px inset !important;
+	-moz-box-shadow: 0px 5px 30px -24px inset !important;
+	-o-box-shadow: 0px 5px 30px -24px inset !important;
+	box-shadow: 0px 5px 30px -24px inset !important;
 }
 
 img {
@@ -175,6 +183,4 @@ input[ type="button"]:hover {
 }
 
 
-/**#second :nth-child(even) {
-	background-color: white;
-}*/
+
