@@ -1,0 +1,112 @@
+
+
+@import url('genericons/genericons.css');
+@font-face {
+	font-family: 'Righteous';
+	font-weight: 200;
+	font-style: normal;
+	src: local('Righteous Regular'), local('Righteous-Regular'), url(Righteous/Righteous-Regular.ttf) format('truetype');
+}
+
+.wrap-one {
+    width: 600px;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom: 10px;
+}
+
+body {
+    background-image: url('post.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom:20px;
+    font-family: 'Righteous';
+}
+
+.content {
+    border: 1px solid white;
+    border-radius: 4px;
+   /** background-color: #3B94D9; */
+   	/**background-color: #CACAC8; */
+   	background-color: #6D9A16;
+    box-shadow: inset 5px 5px 50px -38px;
+    padding: 15px;
+    color: white;
+}
+
+#arrow {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+  /**  border-top: 25px solid #CACAC8; */
+  	border-top: 25px solid #545D4C;
+    position: relative;
+    top: -2px;
+    left: 50px;
+}
+.face:after {
+	content: '\f203';
+	font: normal 18px/1 'Genericons';
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.twitter:after {
+	content: '\f202';
+	font: normal 18px/1 'Genericons';
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+p {
+	color:#302E28;
+}
+.github:after {
+	content: '\f200';
+	font: normal 18px/1 'Genericons';
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+span{
+	padding: 5px;
+}
+
+h1 {
+	margin-bottom:0px;
+	color:#302E28;
+}
+h5 {
+	margin-top: 0px;
+	font-weight: 200;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color:#302E28 ;
+}
+
+#photo {
+    position: relative;
+    left: 10px;
+    width: 125px;
+    height: 125px;
+    border: 3px solid #6D9A16;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 2px 2px 40px -5px;
+}
+
+#photo img {
+    width: 100%;
+    height: auto;
+    
+}
+
