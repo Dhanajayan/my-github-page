@@ -1,0 +1,93 @@
+
+body {
+    background: linear-gradient(-180deg, #19B5FE, #1F3A93 );
+}
+
+#wrap {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    background: linear-gradient(90deg,#1F3A93, #19B5FE);
+    box-shadow: 5px 5px 50px -13px black;
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 45px;
+    color: #1F3A93;
+    text-shadow: 1px 1px 5px #1F3A93;
+}
+
+#second {
+    width: 600px;
+}
+
+h5 {
+    text-decoration: underline;
+    padding: 10px;
+    font-weight: 400px;
+    color: white;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+#second-one {
+    width: 250px;
+    float: left;
+}
+
+#second-one h5 {
+    text-align: right;
+    font-weight: normal;
+}
+
+#second-two {
+    width:  250px;
+    float: left;
+}
+
+#inputval{
+    clear: both;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    padding-left: 15px;
+    margin: 5px;
+    border-radius: 50px;
+    border: 1px solid #555;
+}
+
+input[type="password"] {
+    width: 300px;
+    padding: 10px;
+    padding-left: 15px;
+    margin: 5px;
+    border-radius: 50px;
+    border: 1px solid #555;
+}
+
+#checkbox {
+    width: 400px;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#button {
+    clear: both;
+}
+
+input[type="button"] {
+    border-radius: 50px;
+    width: 320px;
+    padding: 10px;
+    border: 0px solid #555;
+    background-color: #1F3A93;
+    color: white;
+}
+
