@@ -1,0 +1,44 @@
+
+#wrap {
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+h1 {
+    background-color: #555 ;
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+#image img {
+    width: 100%;
+    height: auto;
+}
+
+.first {
+    position: relative;
+    float: left;
+}
+
+#image {
+    position: absolute;
+}
+
+#author {
+    position: absolute;
+    color: white;
+}
+
+p {
+    bottom: 2px;
+    left:0px;
+}
+
+#heading {
+    float: left;
+}
+
+
