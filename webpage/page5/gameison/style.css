@@ -1,0 +1,169 @@
+
+@import url('genericons/genericons.css');
+
+@font-face {
+    font-family: 'Cabin';
+    font-weight: 200;
+    font-size: normal;
+    src: local('Cabin Regular'), local('Cabin-Regular'), url(Cabin/Cabin-Regular.ttf) format('truetype');
+}
+
+body {
+    background-image: url('backsherl.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Cabin';
+}
+p {
+    display: inline-block;
+    margin-left: 30px;
+    font-weight: 200;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#wrap {
+    width: 700px;
+    margin-top: 100px;
+    margin: auto;
+    height: 600px;
+    background-color:#152348 ;
+    opacity: 0.9;
+    box-shadow: 5px 5px 50px -15px black;
+    margin-bottom: 100px;
+}
+
+#inner-wrap {
+
+}
+
+#second-wrap {
+    padding: 15px;
+    padding-left: 0px;
+}
+
+#inner-wrap img {
+    width: 100%;
+    height: auto;
+}
+
+#load {
+    border-bottom: 35px solid #BEBAB3;
+    border-left: 50px solid transparent;
+    border-right: 0px solid transparent;
+    height: 0;
+    width: 122px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+#post-title {
+    border-bottom: 35px solid #BEBAB3;
+    border-left: 0px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 300px;
+    float: left;
+}
+
+h3 {
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+h5{
+    margin: 0px;
+    margin-top: 10px;
+}
+
+#prev {
+    clear: both;
+    width: 50%;
+    float:left;
+    background-color: #273968;
+}
+
+#next {
+    width: 50%;
+    float: right;
+    text-align: right;
+    background-color: #273968;
+    
+}
+
+#prev-block {
+    border-bottom: 65px solid #BEBAB3;
+    border-left: 0px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 200px;
+    float: left;
+    
+}
+
+#next-block {
+    border-bottom: 65px solid #BEBAB3;
+    border-left: 50px solid transparent;
+    border-right: 0px solid transparent;
+    height: 0;
+    width: 200px;
+    float: right;
+    
+}
+
+h4 {
+    margin: 0px;
+    margin-top: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#right {
+    float: left;
+}
+#left {
+    float: right;
+}
+
+.icon {
+    width: 50px;
+    height: 25px;
+}
+
+.prev-text {
+	font-weight: normal;
+}
+.prev-text:after {
+    content: '\f430';
+        font: normal 16px/1 'Genericons';
+            display: inline-block;
+                -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    font-size: 30px;
+                    font-weight: bold;
+}
+
+.next-text:after {
+    content: '\f429';
+        font: normal 16px/1 'Genericons';
+            display: inline-block;
+                -webkit-font-smoothing: antialiased;
+                    font-size: 30px;
+                    font-weight: bold;
+
+
+}
+
+.fa-arrow-circle-right {
+    float: right;
+}
+.next-text {
+    float: right;
+    font-weight: normal;
+}
+
