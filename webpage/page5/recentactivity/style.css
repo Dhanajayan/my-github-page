@@ -1,10 +1,26 @@
+@import url('font-awesome.css');
 
+@font-face{
+    font-family: 'CabinSketch';
+    font-weight: 200;
+    font-style: normal;
+    src: local('CabinSketch-Regular'), local('CabinSketch Regular'), url(CabinSketch/CabinSketch-Regular.ttf) format('truetype');
+}
+
+body {
+	background-image: url('back.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+        font-family: 'CabinSketch';
+}
 #wrap {
     width: 400px;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 100px;
     overflow: hidden;
-    height: 800px;
+    height: 750px;
     box-shadow: 5px 5px 50px -20px black;
 }
 
@@ -16,6 +32,7 @@ h1 {
     text-align: center;
     width: 400px;
     margin: 0px;
+    margin-bottom: 4px;	
 }
 
 img{
@@ -26,6 +43,8 @@ img{
 h5 {
     margin: 0px;
     color: white;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .first {
@@ -41,12 +60,13 @@ h5 {
 
 #author {
     position: absolute;
-    height: 40px;
+    height: 50px;
     bottom: 4px;
     width: 400px;
     left: 0px;
     background-color: #555; 
     opacity: 0.7;
+    padding-left: 5px;
 }
 
 #author-image {
@@ -60,7 +80,13 @@ h5 {
     border-radius: 50%;
 }
 
+#author-detail {
+margin: 5px;
+}
+
+
 p {
+    padding-left: 10px; 
     bottom: 2px;
     left:0px;
     margin:0px;
@@ -78,5 +104,17 @@ p {
 
 #author-name {
     float: left;
+}
+
+.icon {
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    right: 3px;
+    bottom:3px;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    padding: 5px;
 }
 
