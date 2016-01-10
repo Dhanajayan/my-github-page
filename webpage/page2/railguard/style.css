@@ -16,12 +16,7 @@
 	src: local('Righteous Regular'), local('Righteous-Regular'), url(Righteous/Righteous-Regular.ttf) format('truetype');
 }
 
-@font-face {
-	font-family: 'Anton';
-	font-weight: 200;
-	font-style: normal;
-	src: local('Anton'), local('Anton'), url(Anton/Anton.ttf) format('truetype');
-}
+
 
 * {
 	padding: 0px;
