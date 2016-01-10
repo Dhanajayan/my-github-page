@@ -1,0 +1,117 @@
+
+@import url('genericons/genericons.css');
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-style: normal;
+    src: local('Roboto Regular'), local('Roboto-Regular'), url(Roboto/Roboto-Regular.ttf) format('truetype');
+}
+
+body {
+    background-color: #E2E9E7;
+    font-family: 'Roboto';
+}
+
+#wrap {
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.first {
+    width: 250px;
+    float: left;
+    box-shadow: 5px 5px 50px -15px black;
+    margin-left: 34px;
+    margin-right: 34px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+ 
+img {
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+h6 {
+    margin: 0px;
+    font-weight: 400;
+    font-size: normal;
+    font-size: 15px;
+    border-bottom: 1px solid #EAE8E8;
+    margin-left: 5px;
+    color: #555;
+}
+
+h5 {
+    margin: 0px;
+    font-weight: 400;
+    font-size: normal;
+    font-size: 13px;
+    border-bottom: 1px solid #EAE8E8;
+    margin-left: 5px;
+    color: #555;
+    
+}
+
+#likes:before {
+    content: '\f221';
+    font: normal 16px/1 'Genericons';
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#views:before {
+    content: '\f403';
+    font: normal 16px/1 'Genericons';
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   
+}
+
+#download:before {
+    content: '\f50b';
+    font: normal 16px/1 'Genericons';
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+#likes {
+    font: 12px;
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+#views {
+    font: 12px;
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+
+#download {
+    font: 12px;
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+
+#view {
+    overflow: hidden;
+    margin-top: 4px;
+    padding-top: 4px;
+    border-top: 1px solid #D0D0D0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
