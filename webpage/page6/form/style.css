@@ -1,0 +1,112 @@
+@font-face {
+	font-family: 'Oleo Script';
+	font-weight: 200;
+	font-size: normal;
+	src: local('OleoScript Regular'), local('OleoScript-Regular'), url(OleoScript/OleoScript-Regular.ttf) format('truetype');
+}
+
+#wrap {
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    border: 0px solid #555;
+    padding: 55px;
+    overflow: hidden;
+    background-color: #F9BF3B;
+    color: #777;
+    background: linear-gradient(to left bottom,#EB9532,#F89406 );
+    box-shadow: 5px 5px 44px -20px black;
+    padding-right: 85px;
+    border-radius: 5px;
+}
+
+label {
+    width: 400px;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 15px;
+    padding-left: 0px;
+    font-weight: bold;
+    box-sizing: border-box;
+    text-spacing: ;
+}
+
+input {
+	 font-family: 'Oleo Script';
+	 font-weight: normal;
+}
+
+input[type="text"] {
+    width: 400px;
+    border: 0px solid #555;
+    padding: 15px;
+    border-radius: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #EBEBEB;
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+input[type="text"]:focus {
+	box-shadow: inset 2px 2px 44px -17px yellow;
+	border: 1px solid yellow;
+}
+input[type="password"] {
+    width: 400px;
+    border: 0px solid #555;
+    padding: 15px;
+    border-radius: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+input[type="password"]:hover {
+	box-shadow: inset 2px 2px 44px -17px yellow;
+}
+
+input[type="password"]:focus {
+	box-shadow: inset 2px 2px 44px -17px yellow;
+	border: 1px solid yellow;
+}
+#left {
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+    padding: 10px;
+}
+#right {
+    width: 30%;
+    float: left;
+    text-align: right;
+    padding: 10px;
+    float: right;
+}
+
+input[type="button"] {
+    width: 100%;
+    border: 0px solid #555;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2px;
+    background: linear-gradient(to top,#F89406,#F5AB35);
+    box-shadow: 5px 5px 44px -20px black;
+    transition: all 300ms ease;
+    color: white;
+    font-weight: bold;
+}
+
+input[type="button"]:hover {
+	background: linear-gradient(to bottom,#F89406,#F5AB35);
+}
+body {
+    background-color: #FBE3BC;
+    font-family: 'Oleo Script';
+}
+
+#first {
+	margin-bottom: 20px;
+}
