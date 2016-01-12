@@ -1,0 +1,96 @@
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 200;
+	font-style: normal;
+	src: local('OpenSans Regular'), local('OpenSans-Regular'), url(OpenSans/OpenSans-Regular.ttf) format('truetype');
+}
+body {
+	font-family: 'Open Sans';
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+#wrap {
+    width: 565px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    box-shadow: 5px 5px 50px -20px black;
+    color: white;
+}
+
+.first {
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    border-bottom: 192px solid #DF1C1C;
+    border-left: 50px solid transparent;
+    border-right: 0px solid transparent;
+    height: 0;
+    width: 300px;
+}
+
+#image-div {
+    background-color: #DF1C1C;
+    width: 300px;
+}
+
+
+#image-div img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.second {
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    border-bottom: 192px solid #DF1C1C;
+    border-left: 50px solid transparent;
+    border-right: 0px solid transparent;
+    height: 0;
+    width: 300px;
+}
+
+.third {
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    border-bottom: 192px solid #DF1C1C;
+    border-left: 50px solid transparent;
+    border-right: 0px solid transparent;
+    height: 0;
+    width: 300px;
+}
+
+input[type="button"] {
+    background-color: #40D17D;
+    color: white;
+    margin-right: 10px;
+    border: 1px solid grey;
+}
+
+#content-div {
+    box-shadow: 5px 5px 40px -20px grey;
+    padding-right: 15px;
+}
+
+p {
+    
+    font-size: 15px;
+}
+
+h4 {
+    font-size: 18px;
+    background-color: red;
+    padding: 5px;
+    padding-left: 0px;
+    margin: 0px;
+    margin-top: 5px;
+}
+
