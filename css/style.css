@@ -51,7 +51,15 @@ ul {
 ul li:nth-child(6) {
     margin-left: 40px;
 } 
-
+.navbar-default .navbar-nav > li > a {
+    padding: 0px;
+}
+ul li {
+    padding: 0px;
+} 
+ul li>a{
+    padding: 0px    ;
+}
 .active {
     background-color: #ECCD2F;
     color: black;
