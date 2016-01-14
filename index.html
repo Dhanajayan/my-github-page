@@ -1,132 +1,186 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		
-		<title>Dhananjayan's Website</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<link rel="stylesheet" href="style.css" type="text/css">
-		
-		<meta name="description" content="This is my personal webpage.">
-		<meta name="author" content="Dhananjayan">
+    <head>
+        <title>Dhananjayan's Website</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+             
+       <link type="text/css"  rel="stylesheet" href="css/slick.css"/>
+       <link type="text/css"  rel="stylesheet" href="css/custom-slick.css"/>
+       <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+   <style type="text/css">
+            .tooltip {
+                margin: 4px;
+                padding: 4px;
+                border: 0px solid yellow;
+                background-color: black;
+                position: absolute;
+                
+            }
+       </style>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!--<link href="http://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet" type="text/css"> -->
-<!--		<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"> -->
-	 <!--   <link href="http://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css"> -->
-		<script src="http://www.dhananjayan.me/jquery-1.9.1.min.js"></script>
-                <script src="http://www.dhananjayan.me/jquery.DEPreLoad.js"></script>
-                <script src="http://www.dhananjayan.me/Loaderjs.js"></script>
-			
-	</head>
-	<body>
-			
+    </head>
+    <body>
+        <header>
+        <div class="menu">
+                <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                    <!--Mobile view-->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    </div><!--nav bar -->
+                    <div id="navbar" class="navbar-collapse collapse">
+                <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+                <li class="active">HOME</li>
+                <a href="design.html"><li>DESIGN</li></a>
+                <li>ABOUT</li>
+                <li>FEEDBACK</li>
+                <li>CONTACT</li>
+                <a href="http://www.facebook.com/Dhananjayan8" title="facebook"><li class="fa fa-facebook fa-1x"></li></a>
+                <a href="https://twitter.com/dhananvinay" title="twitter"><li class="fa fa-twitter fa-1x"></li></a>
+                <a href="https://github.com/dhanajayan" title="git hub"><li class="fa fa-github fa-1x"></li></a>
+                </ul>
+         </div><!-- nav collapse -->
+         </div>
+         </nav>
+         </div>
+        <div class="logo">
+            <div id="log">
+                <img src="image.png"></img>
+            </div>
+        </div>
+        </header>
+        <div id="content">
+        
+        </div>
+        <div id="name">
+            <div id="author-img">
+                <img src="image.png"></img>
+            </div>
+            <div id="author-desc">
+                <h1>Hi, I'm Dhananjayan</h1>
+                <p>I'm doing computer engineering degree. I'm spending my time in web designing and programming. I love programming. Feel free to check my design, code on GitHub or down below.</p>
+            </div>
+        </div>
+        <div id="portfo">
+            <h4>Portfolio</h4>
+            <p>Here are some of my works that I like most. If you want visit my GitHub</p>
+        </div>
 
-			<div class="author">
-				<h1>Dhananjayan</h1>
-				<div class="about">
-				<p>I am Student, budding programmer and a wordpress theme developer. I spend my time in web Designing and day dreaming.</p> 
-				<br> <br> <!-- replace with spacing -->
+        <!-- Start of most liked design -->
+       <section id="features" class="blue">
+        <div class="best-design">
+            <h2 style="text-align: center;">Designs That I like most</h2>
+            <div class="slider responsiv">
+                <div>
+                    <a href="http://www.dhananjayan.me/webpage/page4/username/username.html"><img src="image/username.png"></img></a>
+                    
+                </div>
+                <div>
+                    <a href="http://www.dhananjayan.me/webpage/page5/gameison/gameison.html"><img src="image/gameison.png"></img></a>
+                </div>
+                <div>
+                    <a href="http://www.dhananjayan.me/webpage/page5/colors/colors.html"><img src="image/colors.png"></img></a>
+                </div>
+                <div>
+                     <a href="http://www.dhananjayan.me/webpage/page3/seeker/seeker.html"><img src="image/musi.png"></img></a>
+                </div>
+                <div>
+                      <a href="http://www.dhananjayan.me/webpage/page3/musician/musician.html"><img src="image/musician.png"></img></a>
+                </div>
+                <div>
+                    <a href="http://www.dhananjayan.me/webpage/page2/railguard/railguard.html"><img src="image/railer.png"></img></a>
 
-				
-				<h5> Find me on <a href="https://twitter.com/dhananvinay" style="text-decoration: none; color:#FFFFFF;"><span data-title="Twitter">Twitter</span></a> and <a href="http://www.facebook.com/Dhananjayan8" style="text-decoration: none;color:#FFFFFF;"><span data-title="Facebook">Facebook</span></a>.</h5> <!-- alternatively you could use icons -->
+                </div>
+                <div>
+                     <a href="http://www.dhananjayan.me/webpage/page2/Inaugaration/Inaugaration.html"><img src="image/Inaugaration.png"></img></a>
+                </div>
+                <div>
+                     <a href="http://www.dhananjayan.me/webpage/page3/panda/panda.html"><img src="image/pana.png"></img></a>
+                </div>
+            </div>
+        </div>
+        </section>
+      <!--  <div id="portfolio">
 
-				</div>
-			</div>
-			<div class="content">
-				<div id="firstrow">
-		<!--			<div id="first">
-						<div id="image"><a href="http://www.dhananjayan.me/webpage/page3/musician/musician.html"><img src="img/musician.png" ></img></a></div>
-				
-						<div id="heading"><h2>Musician</h2></div>
-					</div> -->
-					
-				
-					<div id="second">
-					<div id="image"><a href="http://www.dhananjayan.me/webpage/page5/colors/colors.html"><img src="img/colors.png"></img></a></div>
-					<div id="heading"><h2>Colors</h2></div>
-					</div> 
-					
-				</div>
-				<div id="firstrow">
-					<div id="first">
-						<div id="image"><a href="http://www.dhananjayan.me/webpage/page5/gameison/gameison.html"><img src="img/gameison.png" ></img></a></div>
-				
-						<div id="heading"><h2>Game is on</h2></div>
-					</div>
-					
-					<div id="second">
-					<div id="image"><a href="http://www.dhananjayan.me/webpage/page5/recentactivity/recentactivity.html"><img src="img/recentactivity.png"></img></a></div>
-					<div id="heading"><h2>Recent activity</h2></div>
-					</div> 
-					
-				</div>  
-				<div id="firstrow">
-					
-					<div id="first">
-					<div id="image"><a href="http://www.dhananjayan.me/webpage/page5/signinn/signinn.html"><img src="img/signinn.png"></img></a></div>
-					<div id="heading"><h2>Sign Inn</h2></div>
-					</div> 
-					<div id="second">
-						<div id="image"><a href="http://www.dhananjayan.me/webpage/page5/welcome/welcome.html"><img src="img/welcome.png" ></img></a></div>
-				<!--	<p>this is a simple text about the website</p> -->
-						<div id="heading"><h2>Welcome</h2></div>
-					</div>
-				</div>
-	<!--change -->
-			<!--	<div id="firstrow">
-					<div id="first">
-						<div id="image"><a href="http://www.dhananjayan.me/webpage/page1/reporter/reporter.html"><img src="img/report.png" ></img></a></div>
-			<!--	<p><!--this is a simple text about the website</p> -->
-				<!--		<div id="heading"><h2>Reporter</h2></div>
-					</div>
-					<div id="second">
-					<div id="image"><a href="http://www.dhananjayan.me/webpage/page1/shopper/shopper.html"><img src="img/shop.png"></img></a></div>
-					<div id="heading"><h2>Shopper</h2></div>
-					</div>
-				</div>
-				<div id="firstrow">
-					<div id="first">
-					<div id="image"><a href="http://www.dhananjayan.me/webpage/page1/techie/techie.html"><img src="img/techie.png"></img></a></div>
-					<div id="heading"><h2>Techie</h2></div>
-					</div>
-					<div id="second">
-					<div id="image"><a href="http://www.dhananjayan.me/webpage/page1/magazine/magaz.html"><img src="img/magazine.png"></img></a></div>
-					<div id="heading"><h2>Magazine</h2></div>
-					</div> 
-				</div> -->  
-				
-			</div>
-<!-- start of next and previous button -->
-		<div class="buttons">
-			<div class="next-button" style="float: right;">
-				<a href="http://www.dhananjayan.me/webpage/page4/"><input type="button" value="Next"></a>
-			</div>
-		
-		<!--	<div class="prev-button" style="float: left;">
-				<a href="#"><input type="button" value="Previous"></a>
-			</div> -->
-		</div>
+           
+           <div class="first">
+                <div class="first-image">
+                    <img src="img/username.png"></img>
 
-		<!--rocket -->	
-			<div id="scroll" style="float: right; right-margin: 20px; clear:both;">
-			<a href="#" id="link"><img src="img/rocket.png"></img></a>
-			</div>
-		
-		<div class="foot">
-			<p> &copy; rights reserved to Dhananjayan</p>
-		</div>
-		</div>
-		<script src="http://www.dhananjayan.me/jquery-1.9.1.min.js" type="text/javascript"> </script>
-		<script type="text/javascript">
-			(function($) {
-			
-			$('#link').click(function() {
-				$("html, body").animate({ scrollTop:0 },1000);
-				
-			});
-		
-			})(jQuery);
-		</script>
-		
-			
-</body>		
-<html>
+                </div>
+            </div>
+           
+            <div class="first">
+                <div class="first-image">
+                   <img src="img/gameison.png"></img>
+
+
+                </div>
+            </div>
+            
+            
+            <div class="first">
+                <div class="first-image">
+                   <img src="img/colors.png"></img>
+
+                </div>
+            </div>
+           
+            
+            <div class="first">
+                <div class="first-image">
+                    <img src="img/musi.png"></img>
+
+                </div>
+            </div>
+            
+            <div class="first">
+                <div class="first-image">
+                    <img src="img/musician.png"></img>
+
+                </div>
+            </div>
+            
+            <div class="first">
+                <div class="first-image">
+                    <img src="img/railer.png"></img>
+
+                </div>
+            </div>
+           
+            <div class="first">
+                <div class="first-image">
+                    <img src="img/Inaugaration.png"></img>
+
+                </div>
+            </div>
+           
+            <div class="first">
+                <div class="first-image">
+                    <img src="img/pana.png"></img>
+
+                </div>
+            </div>
+           
+            
+        </div>  -->
+        <div id="footer">
+            <p> &copy; rights reserved to Dhananjayan</p> 
+        </div>
+        <!-- javascript -->
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" language="javascript" src="js/jquery.tosrus.min.all.js"></script>
+         
+        <script type="text/javascript" language="javascript" src="js/bootstrap.min.js"></script>
+        
+         <script type="text/javascript" language="javascript" src="js/slick.min.js"></script>
+         <script type="text/javascript" language="javascript" src="js/custom-slick-js.js"></script>
+
+        
+    </body>
+</html>
