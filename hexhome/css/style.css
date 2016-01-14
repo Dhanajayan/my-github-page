@@ -18,6 +18,10 @@
 h1 {
 }
 
+.menu a {
+    color: #ECCD2F;
+}
+
 .menu {
     width: 100%;
     margin: auto;
@@ -157,18 +161,7 @@ ul li:hover {
     left: 646px;
 }
 
-.first {
-    position: relative;
-    float: left;
-    transition: all 300ms ease;
-    width: 300px;
-}
-.first:hover {
-}
 
-.first-image {
-    width: 400px;
-}
 
 .first-image img {
     width: 100%;
@@ -221,3 +214,9 @@ h4 {
     font-weight: bold;
 }
 
+.best-design {
+    background-color: #EBEBE0;  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
