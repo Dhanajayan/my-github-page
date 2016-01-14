@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'Merriweather';
+	font-weight: 200;
+	font-style: normal;
+	src: local('Merriweather-BoldItalic'), local('Merriweather BoldItalic'), url(Merriweather-BoldItalic.ttf) format('truetype');
+}
+
+body {
+	background-image: url('back.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Merriweather';
+}
+
+#wrap {
+	width: 800px;
+	box-shadow: 5px 58px 50px -2px gray;
+	
+	overflow: hidden;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+#image {
+	width: 60%;
+	float: left;
+}
+
+#content {
+	width: 35%;
+	float: left;
+	background-color: #EDCB2F;
+	padding-left: 10px;
+	padding: 20px;
+	color: #4A9242 ;
+	height: 441px;
+	opacity: 0.8;
+}
+
+#content h1 {
+	color: #583F26;
+}
+#content p {
+	font-weight: bold;
+	text-indent: 30px;
+	line-height: 25px;
+	line-break: normal;
+	word-break: normal;
+}
+
+#image img {
+	width: 100%;
+	height: auto;
+}
+
+#wraptwo {
+	width: 800px;
+	box-shadow: 5px 5px 50px -1px gray;
+	margin-bottom: 100px;
+	overflow: hidden;
+	position: absolute;
+	left: 50px;
+	top: 0px;
+}
+
+input {
+	float: right;
+	border: 1px solid #4A9242;
+	font-weight: bold;
+	padding: 5px;
+	color: #4A9242;
+	background: -webkit-linear-gradient(180deg,#EDCB2F,#F1C40F);
+	background: -moz-linear-gradient(180deg,#EDCB2F,#F1C40F);
+	background: -o-linear-gradient(180deg,#EDCB2F,#F1C40F);
+	background: linear-gradient(180deg,#EDCB2F,#F1C40F);
+	opacity: 1;
+	border-radius: 4px;
+	color: #583F26;
+
+}
+
+input:hover {
+	background: -webkit-linear-gradient(180deg,#EDCB2F,#F1C40F);
+	background: -moz-linear-gradient(180deg,#EDCB2F,#F1C40F);
+	background: -o-linear-gradient(180deg,#EDCB2F,#F1C40F);
+	background: linear-gradient(180deg,#EDCB2F,#F1C40F);
+}
