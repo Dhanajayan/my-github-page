@@ -27,6 +27,10 @@ $(document).ready(function() {
         		
         		}]
         	});
+
+                /** code for adding tooltip */
+
+                $('a').tooltip({placement: 'right'});
    		/**	$('.responsive').slick({
    				infinite: true,
    				speed: 300,
