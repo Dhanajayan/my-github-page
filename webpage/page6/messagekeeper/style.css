@@ -1,0 +1,136 @@
+
+
+@import url("css/font-awesome.min.css");
+
+@font-face {
+	font-family: 'Roboto';
+	font-weight: 200;
+	font-style: normal;
+	src: local('Roboto Black'), local('Roboto-Black'), url(Roboto/Roboto-Black.ttf) format('truetype');
+	src: local('Roboto Regular'), local('Roboto-Regular'), url(Roboto/Roboto-Regular.ttf) format('truetype');
+}
+body {
+	background-color: #F0D5D2;
+	font-family: 'Roboto';
+}
+
+#wrap {
+	width: 676px;
+	margin: auto;
+	margin-top: 50px;
+	overflow: hidden;
+	box-shadow: 5px 5px 50px -30px;
+	margin-bottom: 100px;
+}
+
+#outer {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	padding-right: 36px;
+	padding-left: 36px;
+	float: left;
+	width: 97px;	
+	color: white;
+	background-color: #B34B41;
+	background: linear-gradient(180deg,#E74C3C,#C0392B);
+	font-weight: 300px;
+}
+
+
+#outer:hover {
+	background-color: #DF7C72;
+	background: linear-gradient(-180deg,#E74C3C,#C0392B);
+}
+#inner1 {
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+h3 {
+	margin-bottom: 0px;
+}
+
+p {
+	margin-top: 3px;
+	font-size: 14px;
+}
+#inner2 {
+	float: left;
+	clear: left;
+	text-align: center;
+	padding-top: 3px;
+	width: 100%;
+}
+
+#second {
+	clear: both;
+}
+#buttons {
+	clear: both;
+	color: green;
+	width: 100%;
+}
+
+#buttons > div {
+	color: #2ECC71;
+
+}
+
+#second > div {
+	padding: 5px;
+}
+
+#second {
+	width: 70%;
+	float: left;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+#buttons {
+	width: 15%;
+}
+
+#buttons > div {
+	padding: 20px;
+} 
+
+
+#content {
+	clear:both;
+	width: 100%;
+	overflow: hidden;
+	color: #555;
+	background-color: #F7EAE7;
+
+}
+
+#actionbut {
+	clear:both;
+}
+#actionbut > div {
+	color: white;
+	width: 50%;
+	float: left;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+	font-weight: bold;
+
+}
+
+#cancel {
+	background: linear-gradient(90deg,#95A5A6,#7F8C8D);
+}
+
+#save {
+	background: linear-gradient(90deg,#2ECC71,#27AE60);
+}
+
+h6 {
+	margin: 0px;
+	font-size: 15px;
+}
