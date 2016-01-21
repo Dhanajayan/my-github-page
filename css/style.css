@@ -36,7 +36,7 @@ h1 {
 body {
     margin: 0px;
     font-family: 'Cabin';
-    background-color: #E9E9CE;
+    background-color: #E3E39D;
 }
 
 ul {
@@ -203,7 +203,7 @@ ul li:hover {
 #footer {
     clear: both;
     color: white;
-    background-color: #ECCD2F;
+    background-color: #DEC236;
     margin: 0px;
     padding: 20px;
     padding-top: 5px;
