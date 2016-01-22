@@ -142,7 +142,7 @@ ul li:hover {
 
 
 #content {
-    background-image: url('http://www.dhananjayan.me/css/slide.png');
+    background-image: url('slide.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -196,7 +196,7 @@ ul li:hover {
 
 #author-desc h1 {
     font-family: 'Roboto';
-    font-style: bold;
+    font-weight: bold;
 }
 
 .logo {
@@ -231,6 +231,8 @@ ul li:hover {
 
 #portfo {
     text-align: center;
+    width: 80%;
+    margin: auto;
 }
 
 #portfo p {
@@ -255,7 +257,6 @@ ul li:hover {
 
 #portfo {
     background-color: #E9E9CE;
-    margin: 0px;
     padding: 19px;
 }
 h4 {
@@ -305,8 +306,20 @@ p {
 }
 /** slick */
 
-.slick-prev{
-    color: red;
+.slick-prev:before, .slick-next:before{
+    color: black;
+    font-size: 30px;
+}
+
+.slick-next {
+    margin-right: 45px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.slick-prev {
+    margin-left: 30px;
 }
 
 @media( max-width: 770px) {
