@@ -36,10 +36,12 @@
 	background-color: #2ECC71;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background: -wekit-linear-gradient(90deg,#2ECC71,#27AE60);
+/**	background: -wekit-linear-gradient(90deg,#2ECC71,#27AE60);
 	background: -moz-linear-gradient(90deg, #2ECC71, #27AE60);
 	background: -o-linear-gradient(90deg, #2ECC71, #27AE60);
-	background: linear-gradient(90deg, #F1C40F, #F39C12);
+	background: linear-gradient(90deg, #F1C40F, #F39C12); */
+        
+       background-color: #ECCD2F;
 	-webkit-box-shadow: 2px 2px 60px -17px #000;
 	-moz-box-shadow: 2px 2px 60px -17px #000;
 	-o-box-shadow: 2px 2px 60px -17px #000;
@@ -48,6 +50,8 @@
 .about
 {
 	padding: 5px;
+        width: 65%;
+        margin: auto;
 }
 h1 {
  font-family:  'Orbitron','Lobster', Georgia, Times, serif;
@@ -209,7 +213,6 @@ a span:after {
 	background: -moz-linear-gradient(90deg, #2ECC71, #27AE60);
 	background: -o-linear-gradient(90deg, #2ECC71, #27AE60);
 	background: linear-gradient(90deg, #F1C40F, #F39C12);
-	
 }
 
 /* anchor */

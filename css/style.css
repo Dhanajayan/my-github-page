@@ -142,7 +142,7 @@ ul li:hover {
 
 
 #content {
-    background-image: url('slide.png');
+    background-image: url('http://www.dhananjayan.me/css/slide.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
