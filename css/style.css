@@ -16,6 +16,8 @@
 }
 
 h1 {
+    font-family: 'Roboto';
+    font-weight: bold;
 }
 
 .menu a {
@@ -31,7 +33,7 @@ h1 {
     position: fixed;
     z-index: 999;
     font-family: 'Roboto';
-   
+    display: block;  
 }
 body {
     margin: 0px;
@@ -48,18 +50,31 @@ ul {
     margin-right: 130px;
 } */
 
-ul li:nth-child(6) {
+/**ul li:nth-child(6) {
     margin-left: 40px;
-} 
+} */
 .navbar-default .navbar-nav > li > a {
     padding: 0px;
+    color: gray;
 }
+
+#top-menu li > a {
+    padding: 0px;
+    color: grey;
+}
+
 ul li {
     padding: 0px;
 } 
 ul li>a{
-    padding: 0px    ;
+    padding: 0px;
+    color: black;
 }
+
+a:hover {
+    color: black;
+}
+
 .active {
     background-color: #ECCD2F;
     color: black;
@@ -127,7 +142,7 @@ ul li:hover {
 
 
 #content {
-    background-image: url('http://www.dhananjayan.me/css/slide.png');
+    background-image: url('slide.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -135,7 +150,12 @@ ul li:hover {
 
 
 #content {
-    height: 400px;
+    height: 350px;
+    width: 100%;
+    -webkit-box-shadow: inset 5px 5px 50px -15px black;
+    -o-box-shadow: inset 5px 5px 50px -15px black;
+    -moz-box-shadow: inset 5px 5px 50px -15px black;
+    box-shadow: inset 5px 5px 50px -15px black;
 }
 
 #author-img {
@@ -159,6 +179,10 @@ ul li:hover {
     overflow: hidden;
     margin-top: 10px;
     margin-bottom: 10px;
+    -webkit-box-shadow: 5px 5px 50px -30px black;
+    -o-box-shadow: 5px 5px 50px -30px black;
+    -moz-box-shadow: 5px 5px 50px -30px black;
+    box-shadow: 5px 5px 50px -30px black;
 }
 
 #author-desc {
@@ -168,6 +192,11 @@ ul li:hover {
     float: left;
     padding-top: 20px;
     font-weight: bold;
+}
+
+#author-desc h1 {
+    font-family: 'Roboto';
+    font-style: bold;
 }
 
 .logo {
@@ -200,10 +229,22 @@ ul li:hover {
     margin-top: 29px;
 }
 
+#portfo {
+    text-align: center;
+}
+
+#portfo p {
+    font-weight: normal;
+}
+
+#portfo h3 {
+    font-weight: bold;
+}
+
 #footer {
     clear: both;
-    color: white;
-    background-color: #DEC236;
+    color: #DEC236;
+    background-color: black;
     margin: 0px;
     padding: 20px;
     padding-top: 5px;
@@ -225,12 +266,62 @@ h4 {
 
 #portfo p {
     text-align: center;
-    font-weight: bold;
+    font-weight: normal;
 }
 
+p {
+    font-family: 'Cabin';
+    font-size: 18px;
+    font-weight: normal;
+}
 .best-design {
-    background-color: #EBEBE0;  
+    background-color: #F0CD35;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 20px;
+    box-shadow: 5px 5px 50px -20px black;
 }
+
+.best-design h2 {
+    margin-bottom: 32px;
+}
+
+#mobile-view {
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 10px;
+    z-index: 1000;
+    padding: 10px;
+    border: 2px solid #EBEBE0;
+    border-radius: 5px;
+    color: black;
+    float: right;
+}
+
+.fa-bars {
+    font-size: 30px;
+}
+/** slick */
+
+.slick-prev{
+    color: red;
+}
+
+@media( max-width: 770px) {
+    #log {
+        display: none;
+    }
+
+    #mobile-view {
+        display: block;
+    }
+    
+    .menu {
+        display: none;
+    }
+
+}
+
+

@@ -8,6 +8,7 @@
        <link type="text/css"  rel="stylesheet" href="css/slick.css"/>
        <link type="text/css"  rel="stylesheet" href="css/custom-slick.css"/>
        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+       <link type="text/css" rel="stylesheet" href="css/theme/slick-theme.css"/>
    <style type="text/css">
   /**          .tooltip {
                 margin: 4px;
@@ -17,37 +18,30 @@
                 position: absolute;
                 
             } */
+.slick-prev:before, .slick-next:before {
+    color: red;
+}
+
        </style>
 
     </head>
-    <body>
+    <body style="background-color: #E3E39D;">
         <header>
+                <div id="mobile-view" class="fa fa-bars fa-5x"></div>
+        
         <div class="menu">
-                <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
-                    <!--Mobile view-->
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    </button>
-                    </div><!--nav bar -->
-                    <div id="navbar" class="navbar-collapse collapse">
                 <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
-                <li class="active">HOME</li>
-                <li><a href="design.html">DESIGN</a></li>
-                <li>ABOUT</li>
+                    
+                <li class="active"><a href="http://www.dhananjayan.me/">HOME</a></li>
+                 <li><a href="design.html">DESIGN</a></li>
+               <li>ABOUT</li>
                 <li>FEEDBACK</li>
                 <li>CONTACT</li>
                 <a href="http://www.facebook.com/Dhananjayan8" title="facebook"><li class="fa fa-facebook fa-1x"></li></a>
                 <a href="https://twitter.com/dhananvinay" title="twitter"><li class="fa fa-twitter fa-1x"></li></a>
                 <a href="https://github.com/dhanajayan" title="github"><li class="fa fa-github fa-1x"></li></a>
                 </ul>
-         </div><!-- nav collapse -->
          </div>
-         </nav>
          </div>
         <div class="logo">
             <div id="log">
@@ -68,7 +62,7 @@
             </div>
         </div>
         <div id="portfo">
-            <h4>Portfolio</h4>
+            <h3>Portfolio</h3>
             <p>Here are some of my works that I like most. If you want visit my GitHub</p>
         </div>
 

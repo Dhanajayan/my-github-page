@@ -30,7 +30,7 @@ $(document).ready(function() {
 
                 /** code for adding tooltip */
 
-                $('a').tooltip({placement: 'right'});
+                $('a').tooltip({placement: 'bottom'});
    		/**	$('.responsive').slick({
    				infinite: true,
    				speed: 300,
@@ -74,4 +74,11 @@ $(document).ready(function() {
    				
    				}]
    			}); */
+
+                        /** js for toggle menu */
+
+                        $('#mobile-view').click(function() {
+                        $('.menu').slideToggle();
+                        });
+
     }); 
