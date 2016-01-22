@@ -241,6 +241,7 @@ ul li:hover {
 
 #portfo h3 {
     font-weight: bold;
+    font-family: 'Roboto';
 }
 
 #footer {
@@ -285,6 +286,8 @@ p {
 
 .best-design h2 {
     margin-bottom: 32px;
+    font-family: 'Roboto';
+    font-weight: bold;
 }
 
 #mobile-view {
