@@ -11,6 +11,10 @@ body {
     font-family: 'DroidSansMono';
 }
 
+p {
+    margin: 0px;
+}
+
 ul li {
     display: inline-block;
     margin-right: 20px;   
