@@ -65,10 +65,24 @@ ul {
 
 ul li {
     padding: 0px;
-} 
-ul li>a{
+    width: 110px;
+    height: 50px;
+    -webkit-transform: skew(5deg);
+        -moz-transform: skew(5deg);
+            -o-transform: skew(5deg);
+    background: black;
+    font-style: italic;
+
+}
+
+ul li:nth-child(6) {
+    width: 60px;
+}
+
+ul li>a li{
     padding: 0px;
     color: black;
+    width: 50px;
 }
 
 a:hover {
@@ -89,6 +103,8 @@ ul li:nth-child(7) {
 
 .fa {
     font-size: 22px;
+    width: 60px;
+    font-style: italic;
 }
 
 ul li {
@@ -159,23 +175,30 @@ ul li:hover {
 }
 
 #author-img {
-    width: 200px;
+   /** width: 200px;
     height: 200px;
-    border-radius: 50%;
-    float:left;
+    border-radius: 50%;*/
+    float:left; 
+    border-bottom: 189px solid #ECCD2F;
+    border-left: 0px solid transparent;
+    border-right: 82px solid transparent;
+    height: 0;
+    width: 272px;
 }
 
 #author-img img {
     width: 100%;
     height: auto;
     border-radius: 50%;
+    padding: 5px;
+    margin: 1px;
 }
 
 #name {
-    padding: 30px;
+    padding: 3px;
     width: 900px;
     margin: auto;
-    background-color: #EBEBE0;
+    background-color: rgba(246, 246, 189, 1);
     overflow: hidden;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -188,7 +211,7 @@ ul li:hover {
 #author-desc {
     padding-right: 0px;
     padding-left: 56px;
-    width: 600px;
+    width: 554px;
     float: left;
     padding-top: 20px;
     font-weight: bold;
@@ -231,7 +254,7 @@ ul li:hover {
 
 #portfo {
     text-align: center;
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -288,6 +311,13 @@ p {
     margin-bottom: 32px;
     font-family: 'Roboto';
     font-weight: bold;
+    background: -webkit-linear-gradient(180deg,#ECCD2F,#F1C40F);
+    background: -o-linear-gradient(180deg,#ECCD2F,#F1C40F);
+    background: -moz-linear-gradient(180deg,#ECCD2F,#F1C40F);
+
+    background: linear-gradient(180deg,#ECCD2F,#F1C40F);
+    padding-bottom: 30px;
+    
 }
 
 #mobile-view {
@@ -323,6 +353,28 @@ p {
 
 .slick-prev {
     margin-left: 30px;
+}
+
+#clickme {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+#clickme input[type="button"] {
+    padding: 15px;
+    padding-right: 55px;
+    padding-left: 55px;
+    font-size: 30px;
+    border: 0px;
+    background: -webkit-linear-gradient(180deg,#ECCD2F,#F1C40F);
+    background: -o-linear-gradient(180deg,#ECCD2F,#F1C40F);
+    background: -moz-linear-gradient(180deg,#ECCD2F,#F1C40F);
+
+    background: linear-gradient(180deg,#ECCD2F,#F1C40F);
+    border-radius: 50px;
+    box-shadow: 5px 5px 50px -20px black;
+
 }
 
 @media( max-width: 770px) {
