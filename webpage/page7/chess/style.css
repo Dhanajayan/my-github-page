@@ -1,0 +1,84 @@
+
+@import url('css/font-awesome.css');
+
+#wrap {
+    background-image: url('chess.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 700px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+span {
+    padding: 10px;
+    border: 2px solid white;
+    margin: 15px;
+    margin-bottom: 0px;
+    margin-left: 28px;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#menu {
+    opacity: 0.8;
+    clear: left;
+    width: 718px;
+    margin: 15px;
+}
+
+#first-menu {
+    padding-top: 40px;
+    border-left: 3px solid black;
+    margin-left: 40px;
+}
+
+#before {
+    border-bottom: 21px solid #2E3EAB;
+    border-left: 50px solid transparent;
+    border-right: 0px solid transparent;
+    height: 0;
+    width: 350px;
+    float: right;
+}
+
+#center {
+    clear: right;
+    background-color: #2E3EAB;
+    padding: 6px;
+    text-align: center;
+}
+
+#after {
+    border-bottom: 21px solid #2E3EAB;
+    border-left: 26px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 500px;
+    float: right;
+    -moz-transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+}
+
+
+h3 {
+    text-transform: uppercase;
+}
+
+.topic {
+    border: 0px solid white;
+    padding: 0px;
+    margin: 0px;
+    background-color: #2E2828;
+}
+
+
