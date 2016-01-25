@@ -5,7 +5,7 @@ $(document).ready(function() {
         		infinite: true,
         		arrows: true,
         		asNavFor: null,
-        		slidesToShow: 3,
+        		slidesToShow: 2,
         		slidesToScroll: 1,
         		autoplay: true,
         		autoplaySpeed: 1000,
@@ -16,12 +16,14 @@ $(document).ready(function() {
         			settings: {
         				slidesToShow: 2,
         				slidesToScroll: 2,
+                                        centerMode: false,
         			}
         		}, {
         			breakpoint: 600,
         			settings: {
         				slidesToShow: 1,
         				slidesToScroll: 1,
+                                        centerMode: false,
 
         			}
         		
@@ -80,5 +82,7 @@ $(document).ready(function() {
                         $('#mobile-view').click(function() {
                         $('.menu').slideToggle();
                         });
-
+  /**         $(this).bind('contextmenu', function() {
+                return false;
+            });  */
     }); 

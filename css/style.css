@@ -65,6 +65,7 @@ ul {
 
 ul li {
     padding: 0px;
+    padding-top: 10px;
     width: 110px;
     height: 50px;
     -webkit-transform: skew(5deg);
@@ -72,6 +73,7 @@ ul li {
             -o-transform: skew(5deg);
     background: black;
     font-style: italic;
+    padding-top: 5px;
 
 }
 
@@ -114,6 +116,7 @@ ul li {
     border: 0px;
     font-weight: bold;
     transition: all 300ms ease;
+    padding-top: 15px;
 }
 
 ul li:hover {
@@ -210,7 +213,7 @@ ul li:hover {
 
 #author-desc {
     padding-right: 0px;
-    padding-left: 56px;
+    padding-left: 15px;
     width: 554px;
     float: left;
     padding-top: 20px;
@@ -367,16 +370,23 @@ p {
     padding-left: 55px;
     font-size: 30px;
     border: 0px;
-    background: -webkit-linear-gradient(180deg,#ECCD2F,#F1C40F);
-    background: -o-linear-gradient(180deg,#ECCD2F,#F1C40F);
-    background: -moz-linear-gradient(180deg,#ECCD2F,#F1C40F);
-
-    background: linear-gradient(180deg,#ECCD2F,#F1C40F);
+    background: -webkit-linear-gradient(180deg,#DEBA06,#EAF10F);
+    background: -o-linear-gradient(180deg,#DEBA06,#EAF10F);
+    background: -moz-linear-gradient(180deg,#DEBA06,#EAF10F);
+    background: linear-gradient(180deg,#DEBA06,#EAF10F);
     border-radius: 50px;
     box-shadow: 5px 5px 50px -20px black;
 
 }
 
+#clickme input[type="button"]:hover {
+    background: -webkit-linear-gradient(-180deg,#DEBA06,#EAF10F);
+    background: -o-linear-gradient(-180deg,#DEBA06,#EAF10F);
+    background: -moz-linear-gradient(-180deg,#DEBA06,#EAF10F);
+    background: linear-gradient(-180deg,#DEBA06,#EAF10F);
+}
+
+        
 @media( max-width: 770px) {
     #log {
         display: none;
