@@ -20,10 +20,11 @@ body {
 }
 
 .wrap {
-    width: 400px;
+    width: 600px;
     margin: auto;
     margin-top: 200px;
-    background-color: gray;
+    overflow: hidden;
+    padding: 5px;
 }
 
 input {
@@ -32,12 +33,56 @@ input {
     border: 0px solid gray;
     padding: 5px;
     width: 90%;
+    margin-left: 2px;
 }
 
 h4 {
     margin: 0px;
-    font-size: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    font-size: 18px;
+    padding: 15px;
+    font-weight: normal;
+    background-color: white;
+    color: #555;
+}
+
+.first {
+    margin: 0px;
+    margin: 0px;
+    background-color: gray;
+    overflow: hidden;
+    margin-bottom: 0px;
+    -webkit-box-shadow: 5px 5px 50px -20px black;
+    -o-box-shadow: 5px 5px 50px -20px black;
+    -moz-box-shadow: 5px 5px 50px -20px black;
+
+    box-shadow: 5px 5px 50px -20px black;
+}
+
+.inputval {
+    width: 85%;
+    float: left;
+    padding: 15px;
+    border-left: 3px solid gray;
+    font-size: 18px;
+    box-shadow: 5px 5px 50px -20px black;
+}
+.fa {
+    width: 5%;
+    float: right;
+    text-align: center;
+    margin-top: 8px;
+    margin-right: 11px;
+}
+
+.list {
+    clear: both;
+    background-color: gray;
+    margin-left: 5px;
+    width: 539px;
+    font-size: 18px;
+}
+
+h4:hover {
+    background-color: gray;
 }
 
