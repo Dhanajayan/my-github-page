@@ -1,6 +1,11 @@
 
 @import url('css/font-awesome.css');
 
+@font-face {
+    font-family: 'Righteous';
+    src: local('Righteous/Righteous-Regular.ttf'), url(Righteous/Righteous-Regular.ttf) format('truetype');
+}
+
 #wrap {
     background-image: url('chess.jpg');
     background-repeat: no-repeat;
@@ -13,6 +18,7 @@ body {
     padding: 0px;
     margin: 0px;
     color: white;
+    font-family: 'Righteous';
 }
 
 span {
@@ -30,7 +36,7 @@ h1 {
 
 
 #menu {
-    opacity: 0.8;
+    opacity: 0.9;
     clear: left;
     width: 718px;
     margin: 15px;
@@ -38,7 +44,7 @@ h1 {
 
 #first-menu {
     padding-top: 40px;
-    border-left: 3px solid black;
+    border-left: 3px solid #2E3EAB;
     margin-left: 40px;
 }
 
@@ -81,4 +87,35 @@ h3 {
     background-color: #2E2828;
 }
 
+span {
+    display: inline-block;
+}
+
+.fa-2x {
+    text-align: right;
+    border-radius: 50%;
+}
+
+h5 {
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.fa-bars {
+    border-radius: 50px;
+    padding: 15px;
+}
+
+#first-menu {
+    -moz-transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    transition: all 800ms ease-in-out;
+}
+
+#first-menu:hover {
+    -moz-transform: rotateX(30deg);
+    -webkit-transform: rotateX(30deg);
+    transform: rotateX(30deg);
+}
 

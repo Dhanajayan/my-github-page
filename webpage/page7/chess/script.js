@@ -4,5 +4,8 @@ $(document).ready(function() {
     $('.fa-bars').click(function() {
         $('#menu').slideToggle();
     });
-    alert('hello');
+    
+    $('#first-menu').mouseenter(function() {
+    $(this).delay(1000);
+    });
 });
