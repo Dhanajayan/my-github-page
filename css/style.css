@@ -15,6 +15,14 @@
     src: local('Cabin-Regular'), local('Cabin Regular'), url(Cabin/Cabin-Regular.ttf) format('truetype');
 }
 
+@font-face {
+	font-family: 'Orbitron';
+	font-weight: 200;
+    font-style: normal;
+	src: local('Orbitron-Regular'), local('Orbitron Regular'), url(../Orbitron/Orbitron-Regular.ttf) format('truetype');
+
+}
+
 h1 {
     font-family: 'Roboto';
     font-weight: bold;
@@ -22,6 +30,7 @@ h1 {
 
 .menu a {
     color: #ECCD2F;
+
 }
 
 .menu {
@@ -32,13 +41,14 @@ h1 {
     margin: 0px;
     position: fixed;
     z-index: 999;
-    font-family: 'Roboto';
+    font-family: 'Orbitron';
     display: block;  
 }
 body {
     margin: 0px;
-    font-family: 'Cabin';
+    font-family: 'Roboto';
     background-color: #E3E39D;
+    color: #555;
 }
 
 ul {
@@ -66,8 +76,9 @@ ul {
 ul li {
     padding: 0px;
     padding-top: 10px;
-    width: 110px;
+    width: 130px;
     height: 50px;
+    text-align: center;
     -webkit-transform: skew(5deg);
         -moz-transform: skew(5deg);
             -o-transform: skew(5deg);
@@ -198,7 +209,8 @@ ul li:hover {
 }
 
 #name {
-    padding: 3px;
+	color: #555;
+    border-radius: 12%;
     width: 900px;
     margin: auto;
     background-color: rgba(246, 246, 189, 1);
@@ -209,6 +221,7 @@ ul li:hover {
     -o-box-shadow: 5px 5px 50px -30px black;
     -moz-box-shadow: 5px 5px 50px -30px black;
     box-shadow: 5px 5px 50px -30px black;
+
 }
 
 #author-desc {
@@ -221,7 +234,7 @@ ul li:hover {
 }
 
 #author-desc h1 {
-    font-family: 'Roboto';
+    font-family: 'Orbitron';
     font-weight: bold;
 }
 
@@ -259,6 +272,7 @@ ul li:hover {
     text-align: center;
     width: 100%;
     margin: auto;
+    color: #555;
 }
 
 #portfo p {
@@ -298,7 +312,7 @@ h4 {
 }
 
 p {
-    font-family: 'Cabin';
+    font-family: 'Roboto';
     font-size: 18px;
     font-weight: normal;
 }
@@ -307,12 +321,13 @@ p {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    box-shadow: 5px 5px 50px -20px black;
+    box-shadow: -5px 5px 30px -20px black;
+    color: #555;
 }
 
 .best-design h2 {
     margin-bottom: 32px;
-    font-family: 'Roboto';
+    font-family: 'Orbitron';
     font-weight: bold;
     background: -webkit-linear-gradient(180deg,#ECCD2F,#F1C40F);
     background: -o-linear-gradient(180deg,#ECCD2F,#F1C40F);
@@ -370,15 +385,18 @@ p {
     padding-left: 55px;
     font-size: 30px;
     border: 0px;
-    background: -webkit-linear-gradient(180deg,#DEBA06,#EAF10F);
+    background: -webkit-linear-gradient(180deg,#DEBA06,#DFC917);
     background: -o-linear-gradient(180deg,#DEBA06,#EAF10F);
     background: -moz-linear-gradient(180deg,#DEBA06,#EAF10F);
-    background: linear-gradient(180deg,#DEBA06,#EAF10F);
+    background: linear-gradient(180deg,#DEBA06,#CAB932);
     border-radius: 50px;
-    box-shadow: 5px 5px 50px -20px black;
-
+    box-shadow: -5px 5px 30px -20px black;
+    font-family: 'Orbitron';
 }
 
+#clickme a {
+	text-decoration: none;
+}
 #clickme input[type="button"]:hover {
     background: -webkit-linear-gradient(-180deg,#DEBA06,#EAF10F);
     background: -o-linear-gradient(-180deg,#DEBA06,#EAF10F);
