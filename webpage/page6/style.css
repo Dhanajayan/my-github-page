@@ -1,0 +1,404 @@
+/** Title: my github page
+	author: Dhananjayan
+*/	
+@font-face {
+	font-family: 'Orbitron';
+	font-style: normal;
+	font-weight: 200;
+	src: local('Orbitron Regular'), local('Orbitron-Regular'), url(Orbitron/Orbitron-Regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Righteous';
+	font-weight: 200;
+	font-style: normal;
+	src: local('Righteous Regular'), local('Righteous-Regular'), url(Righteous/Righteous-Regular.ttf) format('truetype');
+}
+
+.menu {
+    height: 50px;
+}
+
+
+*{
+	font-family: 'Orbitron','Roboto',"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+.bodycontent{
+	box-shadow: 1px 1px 5px -1px;
+}
+/*header section */
+.author{
+	width: 100%;
+	text-align: center;
+	color: white;
+	background-color: #2ECC71;
+	padding-top: 50px;
+	padding-bottom: 50px;
+/**	background: -wekit-linear-gradient(90deg,#2ECC71,#27AE60);
+	background: -moz-linear-gradient(90deg, #2ECC71, #27AE60);
+	background: -o-linear-gradient(90deg, #2ECC71, #27AE60);
+	background: linear-gradient(90deg, #F1C40F, #F39C12); */
+        
+       background-color: #ECCD2F;
+	-webkit-box-shadow: 2px 2px 60px -17px #000;
+	-moz-box-shadow: 2px 2px 60px -17px #000;
+	-o-box-shadow: 2px 2px 60px -17px #000;
+	box-shadow: 2px 2px 60px -17px #000;
+}
+.about
+{
+	padding: 5px;
+        width: 65%;
+        margin: auto;
+}
+h1 {
+ font-family:  'Orbitron','Lobster', Georgia, Times, serif;
+  color: #2b2b2b;
+	font-size: 50px;
+}
+h2 {
+	font-family: 'Righteous', 'Orbitron','Lobster', Georgia, Times, serif;
+	color: #2b2b2b;
+	font-size: 30px;
+	padding: 5px;
+	text-shadow: -1px 4px 8px black;
+}
+h5 {
+	font-family: 'Orbitron','Lobster', Georgia, Times, serif;
+	color: #2b2b2b;
+	font-size: 10px;
+	text-shadow: -1px 4px 8px black;
+}
+
+p {
+    font-family: 'Righteous', 'Orbitron','Lobster', Georgia, Times, serif;
+    font-size: 17px;
+	
+}
+
+h5 {
+    font-family: 'Orbitron','Cabin', Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+}
+/* hover roll - Jash - welcome to change this idea */
+
+a{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    -webkit-perspective: 600px;
+    -moz-perspective: 600px;
+    -o-perspective: 600px;
+    -ms-perspective: 600px;
+    perspective: 600px;
+    -webkit-perspective-origin: 50% 50%;
+    -moz-perspective-origin: 50% 50%;
+    -o-perspective-origin: 50% 50%;
+    -ms-perspective-origin: 50% 50%;
+    perspective-origin: 50% 50%;
+}
+ 
+a span{
+    display: block;
+    position: relative;
+    padding: 0 2px;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    transition: all 400ms ease;
+    -webkit-transform-origin: 50% 0%;
+    -moz-transform-origin: 50% 0%;
+    -o-transform-origin: 50% 0%;
+    -ms-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+ 
+a:hover span {
+    background: #00D1EA;
+    -webkit-transform: translate3d( 0px, 0px, -30px ) rotateX( 90deg );
+    -moz-transform: translate3d( 0px, 0px, -30px ) rotateX( 90deg );
+    -o-transform: translate3d( 0px, 0px, -30px ) rotateX( 90deg );
+    -ms-transform: translate3d( 0px, 0px, -30px ) rotateX( 90deg );
+    transform: translate3d( 0px, 0px, -30px ) rotateX( 90deg );
+}
+ 
+a span:after {
+    content: attr(data-title);
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0 2px;
+    color: #fff;
+    background: #00D1EA;
+    -webkit-transform-origin: 50% 0%;
+    -moz-transform-origin: 50% 0%;
+    -o-transform-origin: 50% 0%;
+    -ms-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+    -moz-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+    -o-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+    -ms-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+    transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+}
+
+/* hover roll ends */
+/*content section*/
+.content{
+/*	background-color: grey;  */
+}
+
+#firstrow #first {
+	
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 5px; 
+	width: 50%;	
+	-moz-box-shadow: 1px 1px 10px -5px gray;
+	-webkit-box-shadow: 1px 1px 10px -5px gray;
+	box-shadow: 1px 1px 10px -5px gray;
+
+}
+/** #firstrow img:hover {
+	-webkit-transform: rotateY(45deg);
+
+	transform: rotateY(45deg);
+	-webkit-backface-visibility: visible;
+	backface-visibility: visible; 
+}  */
+#firstrow #second{
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	width: 50%;
+	-moz-box-shadow: 1px 1px 10px -5px gray;
+	-webkit-box-shadow: 1px 1px 10px -5px gray;
+	box-shadow: 1px 1px 10px -5px gray;
+
+}
+#firstrow #first img{
+	width: 100%;
+	height: auto;
+	
+}
+
+#firstrow #second img {
+	width: 100%;
+	height: auto;
+}
+
+#firstrow h2 {
+	
+	color: white;
+}
+#image {
+	-webkit-box-shadow: 1px 7px 23px -10px;
+	-moz-box-shadow: 1px 7px 23px -10px;
+	box-shadow: 1px 7px 23px -10px;
+}
+
+#heading {
+	background: -wekit-linear-gradient(90deg,#2ECC71,#27AE60);
+	background: -moz-linear-gradient(90deg, #2ECC71, #27AE60);
+	background: -o-linear-gradient(90deg, #2ECC71, #27AE60);
+	background: linear-gradient(90deg, #F1C40F, #F39C12);
+}
+
+/* anchor */
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: black;
+}
+
+/* next prev button */
+
+.next-button {
+	margin-right: 10%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+.next-button input[type="button"] {
+	background-color: #2ECC71;
+	padding: 5px;
+	background: -webkit-linear-gradient(90deg,#2ECC71,#27AE60);
+	background: -moz-linear-gradient(90deg,#2ECC71,#27AE60);
+	background: -o-linear-gradient(90deg,#2ECC71,#27AE60);
+	background: linear-gradient(90deg, #F1C40F, #F39C12);
+	
+	border: 0px;
+	width: 100px;
+	color: white;
+	text-decoration: none;
+	transition: 500ms ease-in;
+}
+
+.next-button input[type="button"]:hover {
+	background: -webkit-linear-gradient(-90deg, #2ECC71, #27AE60);
+	background: -moz-linear-gradient(-90deg, #2ECC71, #27AE60);
+	background: -o-linear-gradient(-90deg,#2ECC71, #27AE60);
+	background: linear-gradient(-90deg,#2ECC71, #27AE60);
+	-webkit-box-shadow: 1px 1px 10px -3px;
+	-moz-box-shadow: 1px 1px 10px -3px;
+	-o-box-shadow: 1px 1px 10px -3px;
+	box-shadow: 1px 1px 10px -3px;
+	color: black;
+}
+
+.prev-button {
+	margin-left: 10%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.prev-button input[type="button"] {
+	background-color: #2ECC71;
+	padding: 5px;
+	background: -webkit-linear-gradient(90deg,#2ECC71,#27AE60);
+	background: -moz-linear-gradient(90deg,#2ECC71,#27AE60);
+	background: -o-linear-gradient(90deg,#2ECC71,#27AE60);
+	background: linear-gradient(90deg,#2ECC71,#27AE60);
+	border: 0px;
+	width: 100px;
+	color: white;
+	text-decoration: none;
+	transition: 500ms ease-in;
+	
+}
+
+.prev-button input[type="button"]:hover {
+	background: -webkit-linear-gradient(-90deg, #2ECC71, #27AE60);
+	background: -moz-linear-gradient(-90deg, #2ECC71, #27AE60);
+	background: -o-linear-gradient(-90deg,#2ECC71, #27AE60);
+	background: linear-gradient(-90deg,#2ECC71, #27AE60);
+	-webkit-box-shadow: 1px 1px 10px -3px;
+	-moz-box-shadow: 1px 1px 10px -3px;
+	-o-box-shadow: 1px 1px 10px -3px;
+	box-shadow: 1px 1px 10px -3px;
+	color: black;
+}
+	
+/* rocket */
+
+#scroll {
+	transition: 400ms ease-in;
+
+
+
+}
+#scroll:hover {
+	border-bottom: 5px solid red;
+}
+
+#link {
+	border-radius: 50%;
+}
+/*footer section*/
+.foot{
+	text-align: center;
+	color: white;
+	background-color: #2ECC71;
+	clear: both;
+	height: 60px;
+	width: 100%;
+	-webkit-shadow: 1px -32px 89px -22px black;
+	-o-shadow: 1px -32px 89px -22px black;
+	-moz-shadow: 1px -32px 89px -22px black;
+	box-shadow:1px -32px 89px -22px black;
+	background: -wekit-linear-gradient(90deg,#2ECC71,#27AE60);
+	background: -moz-linear-gradient(90deg, #2ECC71, #27AE60);
+	background: -o-linear-gradient(90deg, #2ECC71, #27AE60);
+	background: linear-gradient(90deg, #F1C40F, #F39C12);
+	
+}
+
+/*** media adjustment  ***/
+
+@media(max-width: 750px){
+	
+	#firstrow #first{
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		
+	}
+	#firstrow #second{
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	#firstrow #heading h2 {
+		font-size: 25px;
+	}
+		
+
+}
+
+@media(max-width: 930px) {
+	
+	#firstrow #first {
+		width: 70%;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	#firstrow #second{
+		width: 70%;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	#firstrow #heading h2 {
+		font-size: 25px;
+	}
+}
+
+/** width: 400px  */
+
+@media(max-width: 400px) {
+
+	h1 {
+		font-size: 30px;
+	}
+	
+	h5 {
+		font-size: 18px;
+	}
+	
+	#firstrow #first {
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	#firstrow #second{
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	#firstrow #heading h2 {
+		font-size: 20px;
+	}
+}
+
+
+
+

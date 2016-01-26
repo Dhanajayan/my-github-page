@@ -1,0 +1,143 @@
+
+@import url('css/font-awesome.min.css');
+
+@font-face {
+    font-family: 'Varela';
+    src: url(Varela/Varela-Regular.ttf) format('truetype');
+}
+
+body {
+    color: #555;
+    font-family: 'Varela';
+    font-weight: 200;
+    background-color: #DFDFDF; 
+}
+
+.wrap {
+    border-radius: 8px;
+    color: #555; 
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+  /**  background-color: #ECF0F1; */
+    overflow: hidden;
+    margin-bottom: 100px;
+    -webkit-box-shadow: -5px 5px 30px -18px black;
+    -o-box-shadow: -5px 5px 30px -18px black;
+    -moz-box-shadow: -5px 5px 30px -18px black;
+
+    box-shadow: -5px 5px 30px -18px black;
+}
+
+#heading {
+    background-color: #ECF0F1;
+    border-bottom: 4px solid #3498DB;
+    overflow: hidden;
+}
+
+h1 {
+    width: 90%;
+    float: left;
+    margin-left: 10px;
+}
+
+.fa {
+    padding-top: 28px;
+   
+}
+
+#image {
+    width: 200px;
+    height: 125px;
+    float: left;
+}
+
+#image img {
+    width: 100%;
+    height: auto;
+}
+
+#first {
+    border-top: 4px solid gray;
+    border-bottom: 4px solid gray;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #ECF0F1;
+    -webkit-box-shadow: -5px 5px 30px -18px black;
+    -o-box-shadow: -5px 5px 30px -18px black;
+    -moz-box-shadow: -5px 5px 30px -18px black;
+
+    box-shadow: -5px 5px 30px -18px black;
+    color: #27AE60;
+    
+}
+
+#first #content > .fa {
+    color: black;
+}
+
+h4 {
+    padding-left: 20px;
+    font-size: 25px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+#content {
+    width: 67%;
+    float: left;
+    padding-left: 15px;
+
+}
+
+.fa-calender {
+    padding-left: 20px;
+}
+
+#second {
+    border-top: 4px solid gray;
+    border-bottom: 4px solid gray;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #ECF0F1;
+
+}
+
+#third {
+    border-top: 4px solid gray;
+    border-bottom: 4px solid gray;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #ECF0F1;
+
+}
+
+#forth {
+    border-top: 4px solid gray;
+    border-bottom: 4px solid gray;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #ECF0F1;
+    color: #27AE60;
+}
+
+#fifth {
+    border-top: 4px solid gray;
+    border-bottom: 4px solid gray;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #ECF0F1;
+
+}
+
+.fa {
+    padding-left: 20px;
+    padding: 10px;
+    font-size: 23px;
+}
+
+p {
+    padding-left: 10px;
+    font-weight: 800;
+}
+
