@@ -1,0 +1,75 @@
+
+@import url('css/font-awesome.css');
+
+@font-face {
+    font-family: 'Pontano Sans';
+    src: local('Pontano-Sans'), url(PontanoSans/PontanoSans-Regular.ttf) format('truetype');
+}
+
+body {
+    background-color: #E3E3E3;
+    font-family: 'Pontano Sans';
+}
+
+.wrap {
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+    background-color: #D6D6D6;
+    border-top: 3px solid #505066;
+    border-bottom: 5px solid #505066;
+    color: #505066;
+    -webkit-box-shadow: 5px 5px 50px -15px black;
+    -o-box-shadow: 5px 5px 50px -15px black;
+    -moz-box-shadow: 5px 5px 50px -15px black;
+
+    box-shadow: 5px 5px 50px -15px black;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.image {
+/**    background-image: url('grapes.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    width: 800px;
+    margin: auto;
+    margin-bottom: 5px;
+    height: 300px;
+    border-bottom-left-radius: 111%;
+    border-bottom-right-radius: 188%;
+    overflow: hidden;
+}
+
+h1 {
+}
+
+span {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+p {
+    font-size: 18px;
+    text-indent: 30px;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+    line-height: 1.4em;
+}
+
+.social {
+    position: absolute;
+    top: 60px;
+    float:left;
+}
+
