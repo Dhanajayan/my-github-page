@@ -80,6 +80,8 @@ $(document).ready(function() {
                         /** js for toggle menu */
 
                         $('#mobile-view').click(function() {
+                        $(this).addClass('fa-bars')
+                                .css({'color': 'white','position': 'relative'});
                         $('.menu').slideToggle();
                         });
   /**         $(this).bind('contextmenu', function() {

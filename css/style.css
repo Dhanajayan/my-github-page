@@ -418,6 +418,10 @@ p {
         display: none;
     }
 
+    .fa {
+        font-style: normal;
+        text-align: center;
+    }
 }
 
 
