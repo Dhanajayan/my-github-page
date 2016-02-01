@@ -425,3 +425,21 @@ p {
 }
 
 
+@media( max-width: 898px) {
+    #name {
+        width: 95%;
+    }
+
+    #author-img {
+        display: none;
+    }
+
+    #author-desc {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+}
+
