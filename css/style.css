@@ -439,7 +439,9 @@ p {
         text-align: center;
         padding: 20px;
     }
-}
 
+    #content {
+        background-image: url('slide4.jpg');
+    }
 }
 
