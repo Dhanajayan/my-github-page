@@ -1,0 +1,102 @@
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(OpenSans/OpenSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'BlackOpsOne';
+    src: url(BlackOpsOne/BlackOpsOne-Regular.ttf) format('truetype');
+}
+
+body {
+    background-image: url('backsherl.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+ul {
+    color: #999;
+    background-color: rgba(36, 33, 59, 1);
+    margin: 0px;
+    padding: 15px;
+    font-family: 'Open Sans';
+}
+
+#logo {
+    width: 400px;
+    margin: auto;
+}
+
+#logo img {
+    width: 100%;
+    height: auto;
+}
+
+.first {
+    float: left;
+    width: 170px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 16px;
+    color: black;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: 'BlackOpsOne';
+}
+.sub {
+    width: 72%;
+    margin: auto;
+    overflow: hidden;
+    font-family: 'BlackOpsOne';
+}
+
+.post {
+    width: 312px;
+    float: left;
+}
+
+.content {
+    width: 350px;
+    float: left;
+    padding: 28px;
+    color: white;
+    background-color: #1E2536;
+    opacity: 0.9;
+}
+
+.postpage {
+    width: 750px;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+p{
+    color: black;
+    font-weight: bold;
+    font-family: 'Open Sans';
+}
+
+h5 {
+    color: red;
+    font-family: 'BlackOpsOne';
+}
