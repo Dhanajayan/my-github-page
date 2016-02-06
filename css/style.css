@@ -405,7 +405,7 @@ p {
 }
 
         
-@media( max-width: 770px) {
+@media only screen and ( max-width: 770px) {
     #log {
         display: none;
     }
@@ -425,7 +425,7 @@ p {
 }
 
 
-@media( max-width: 898px) {
+@media only screen and ( max-width: 898px) {
     #name {
         width: 95%;
     }
@@ -445,3 +445,19 @@ p {
     }
 }
 
+@media only screen and ( max-width: 350px ) {
+    #content {
+        display: none;
+    }
+
+    #author-desc h1 {
+        font-size: 25px;
+    }
+
+    #mobile-view {
+        background-color: #F0CD35;
+    }
+        
+}
+
+ 
