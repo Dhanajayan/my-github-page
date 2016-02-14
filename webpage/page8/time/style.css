@@ -1,7 +1,20 @@
 
+@font-face {
+    font-family: 'Merriweather';
+    src: url(Merriweather/Merriweather-Regular.ttf) format('truetype');
+}
+
+body {
+    font-family: 'Merriweather';
+    background-color: gray;
+}
+
 .wrap {
     width: 350px;
     margin: auto;
+    box-shadow: 5px 5px 50px -5px;
+    overflow: hidden;
+    margin-top: 30px;
 }
 
 #first-time {
@@ -20,5 +33,47 @@ h3 {
     font-weight: normal;
     padding: 5px;
     margin: 0px;
+    font-size: 14px;
+}
+
+#max {
+    width: 45%;
+    float: left;
+    padding: 2%;
+}
+
+#max2 {
+    width: 45%;
+    float: left;
+    padding: 2%;
+    border-left: 2px solid gray;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+h4 {
+    font-size: 50px;
+    margin: 0px;
+    text-align: center;
+    font-weight: normal;
+}
+
+p {
+    margin: 0px;
+    width: 95%;
+    text-align: right;
+}
+
+#second {
+    border-bottom: 2px solid gray;
+    overflow: hidden;
+    background-color: white;
+}
+
+#third {
+    background-color: white;
+    overflow: hidden;
 }
 
