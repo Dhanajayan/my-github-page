@@ -68,6 +68,15 @@ ul {
     color: gray;
 }
 
+#load-image {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 998;
+    margin-left: 50%;
+    margin-top: 300px;
+}
+
 #top-menu li > a {
     padding: 0px;
     color: grey;
