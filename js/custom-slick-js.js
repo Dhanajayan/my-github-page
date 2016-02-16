@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     //loading image
 $(window).load(function() {
-    $('#load-image').fadeOut('slow');
+    $('#loading').fadeOut('slow');
 });
     
         	$('.responsiv').slick({
