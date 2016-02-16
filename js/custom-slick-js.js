@@ -1,5 +1,10 @@
 $(document).ready(function() {
 
+    //loading image
+$(window).load(function() {
+    $('#load-image').fadeOut('slow');
+});
+    
         	$('.responsiv').slick({
         		
         		infinite: true,
@@ -89,6 +94,3 @@ $(document).ready(function() {
             });  */
     }); 
 
-$(window).onload(function() {
-    $('#load-image').fadeOut('slow');
-});
