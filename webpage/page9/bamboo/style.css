@@ -1,0 +1,57 @@
+
+@font-face {
+	font-family: 'Roboto';
+	src: url(Roboto/Roboto-Regular.ttf) format('truetype');
+}
+
+body {
+	background-image: url('bamboo.jpg');
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: cover;
+	font-family: 'Roboto';
+}
+
+.wrap {
+	width: 653px;
+	margin: auto;
+	color: white;
+	margin-top: 100px;
+	-webkit-box-shadow: 5px 5px 50px -20px black;
+	-moz-box-shadow: 5px 5px 50px -20px black;
+	-o-box-shadow: 5px 5px 50px -20px black;
+	box-shadow: 5px 5px 50px -20px black;
+}
+
+tr {
+	padding: 20px;
+}
+
+td {
+	padding: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	background-color: #E4DDCD;
+	color: gray;
+}
+
+th {
+	padding: 15px;
+	padding-right: 30px;
+	padding-left: 30px;
+	background-color: #CABA96;
+}
+
+#title {
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	position: absolute;
+	top: 154px;
+	left: 899px;
+	background-color: gray;
+	padding: 2px;
+	padding-left: 15px;
+	padding-right: 5px;
+	z-index: -1;
+	
+}

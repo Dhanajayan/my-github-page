@@ -88,3 +88,7 @@ $(document).ready(function() {
                 return false;
             });  */
     }); 
+
+$(window).onload(function() {
+    $('#load-image').fadeOut('slow');
+});
