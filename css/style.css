@@ -85,7 +85,9 @@ ul {
     height: 50px;
     position: absolute;
     z-index: 2;
+    margin: auto;
     margin-top: 250px;
+
 }
 
 #top-menu li > a {
@@ -463,6 +465,10 @@ p {
     #content {
         background-image: url('slide4.jpg');
     }
+
+    #load-image {
+        margin-top: 150px;
+    }
 }
 
 @media only screen and ( max-width: 350px ) {
@@ -478,7 +484,11 @@ p {
     #mobile-view {
         background-color: #F0CD35;
     }
-        
+    
+    #load-image {
+        margin-top: 150px;
+    }
+
 }
 
  
