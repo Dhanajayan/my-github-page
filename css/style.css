@@ -43,7 +43,9 @@ h1 {
     z-index: 1;
     font-family: 'Orbitron';
     display: block;  
+    overflow: hidden;
 }
+
 body {
     margin: 0px;
     font-family: 'Roboto';
@@ -338,8 +340,9 @@ p {
     font-size: 18px;
     font-weight: normal;
 }
+
 .best-design {
-    background-color: #F0CD35;
+    background-color: #ECCD2F;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 20px;
@@ -401,16 +404,17 @@ p {
     padding-bottom: 40px;
 }
 
+
 #clickme input[type="button"] {
     padding: 15px;
     padding-right: 55px;
     padding-left: 55px;
     font-size: 30px;
     border: 0px;
-    background: -webkit-linear-gradient(180deg,#DEBA06,#DFC917);
-    background: -o-linear-gradient(180deg,#DEBA06,#EAF10F);
-    background: -moz-linear-gradient(180deg,#DEBA06,#EAF10F);
-    background: linear-gradient(180deg,#DEBA06,#CAB932);
+    background: -webkit-linear-gradient(180deg,#DEBA06,#E1CE39);
+    background: -o-linear-gradient(180deg,#DEBA06,#E1CE39);
+    background: -moz-linear-gradient(180deg,#DEBA06,#E1CE39);
+    background: linear-gradient(180deg,#DEBA06,#E1CE39);
     border-radius: 50px;
     box-shadow: -5px 5px 30px -20px black;
     font-family: 'Orbitron';
@@ -420,10 +424,10 @@ p {
 	text-decoration: none;
 }
 #clickme input[type="button"]:hover {
-    background: -webkit-linear-gradient(-180deg,#DEBA06,#EAF10F);
-    background: -o-linear-gradient(-180deg,#DEBA06,#EAF10F);
-    background: -moz-linear-gradient(-180deg,#DEBA06,#EAF10F);
-    background: linear-gradient(-180deg,#DEBA06,#EAF10F);
+    background: -webkit-linear-gradient(-180deg,#DEBA06,#DFD011);
+    background: -o-linear-gradient(-180deg,#DEBA06,#DFD011);
+    background: -moz-linear-gradient(-180deg,#DEBA06,#DFD011);
+    background: linear-gradient(-180deg,#DEBA06,#DFD011);
 }
 
         
@@ -459,7 +463,7 @@ p {
     #author-desc {
         width: 100%;
         text-align: center;
-        padding: 20px;
+        padding: 30px;
     }
 
     #content {
@@ -468,6 +472,14 @@ p {
 
     #load-image {
         margin-top: 150px;
+    }
+
+    .best-design {
+        height: 400px;
+    }
+
+    #clickme {
+        height: 200px;
     }
 }
 
