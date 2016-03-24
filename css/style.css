@@ -354,6 +354,7 @@ p {
     margin-bottom: 32px;
     font-family: 'Orbitron';
     font-weight: bold;
+    padding: 10px;
     background: -webkit-linear-gradient(180deg,#ECCD2F,#F1C40F);
     background: -o-linear-gradient(180deg,#ECCD2F,#F1C40F);
     background: -moz-linear-gradient(180deg,#ECCD2F,#F1C40F);
@@ -402,6 +403,7 @@ p {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 40px;
+
 }
 
 
@@ -417,7 +419,7 @@ p {
     background: linear-gradient(180deg,#DEBA06,#E1CE39);
     border-radius: 50px;
     box-shadow: -5px 5px 30px -20px black;
-    font-family: 'Orbitron';
+    font-family: 'Roboto';
 }
 
 #clickme a {
@@ -448,6 +450,10 @@ p {
         font-style: normal;
         text-align: center;
     }
+
+    .best-design {
+        height: 400px;
+    }
 }
 
 
@@ -475,7 +481,7 @@ p {
     }
 
     .best-design {
-        height: 400px;
+        height: 350px;
     }
 
     #clickme {
@@ -499,6 +505,10 @@ p {
     
     #load-image {
         margin-top: 150px;
+    }
+
+    .best-design h2 {
+        font-size: 20px;
     }
 
 }

@@ -1,0 +1,90 @@
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('OpenSans'), url(OpenSans/OpenSans-Regular.ttf) format('truetype');
+}
+
+body {
+	background-color: gray;
+	margin: 0px;
+}
+
+#wrap {
+	background-image: url('guitar.jpg');
+	width: 700px;
+	height: 600px;
+	margin: auto;
+	padding: 50px;
+	box-shadow: 5px 11px 76px -1px;
+	font-family: 'Open Sans';
+}
+
+label {
+	color: white;
+	font-size: 21px;
+}
+
+input[type="text"] {
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid gray;
+	border-radius: 3px;
+	font-size: 17px;
+}
+
+input[type="text"]:focus {
+		-moz-box-shadow:1px 1px 20px -1px #808080 inset;
+			-webkit-box-shadow:1px 1px 20px -1px #808080 inset;
+				-o-box-shadow:1px 1px 20px -1px #808080 inset;
+	box-shadow:1px 1px 20px -1px #808080 inset;
+}
+
+input[type="password"] {
+	padding: 5px;
+	margin: 5px;
+	margin-left: 13px;
+	border: 1px solid gray;
+	border-radius: 3px;
+	font-size: 17px;
+}
+
+input[type="password"]:focus {
+		-moz-box-shadow:1px 1px 20px -1px #808080 inset;
+			-webkit-box-shadow:1px 1px 20px -1px #808080 inset;
+				-o-box-shadow:1px 1px 20px -1px #808080 inset;
+	box-shadow:1px 1px 20px -1px #808080 inset;
+}
+
+#button-div {
+	margin-left: 37%;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+input[type="submit"] {
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: black;
+	color: white;
+	border: 3px solid gray;
+	font-weight: bold;
+	font-size: 17px;
+	background: -moz-linear-gradient(180deg,black,gray);
+	background: -webkit-linear-gradient(180deg,black,gray);
+	background: -moz-linear-gradient(180deg,black,gray);
+	background: linear-gradient(180deg,black,gray);
+}
+
+input[type="submit"]:hover {
+	background: -moz-linear-gradient(180deg,gray,black);
+	background: -webkit-linear-gradient(180deg,gray,black);
+	background: -moz-linear-gradient(180deg,gray,black);
+	background: linear-gradient(180deg,gray,black);
+	
+}
+
+input[type="submit"]:focus {
+	box-shadow: 15px 15px 50px -10px;
+}
