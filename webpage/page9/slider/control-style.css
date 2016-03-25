@@ -1,0 +1,34 @@
+@font-face {
+				font-family: 'Open Sans';
+				src: url('OpenSans/OpenSans-Regular.ttf') format('truetype');
+}
+
+body {
+	font-family: 'Open Sans';
+}
+
+ul li {
+	display: block;
+	background-color: green;
+	width: 100%;
+	padding: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+	font-weight: bold;
+	background-color: #74CE74;
+
+}
+
+ul {
+	padding-left: 0px;
+}
+
+body {
+	margin: 0px;
+	
+}
+
+ul li:hover {
+	background-color: #BD4B4B;
+}

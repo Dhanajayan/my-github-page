@@ -1,0 +1,16 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url(OpenSans/OpenSans-Regular.ttf) format('truetype');
+}
+
+* {
+	font-family: 'Open Sans';
+}
+ul li {
+	background-color: #74CE74;
+}
+
+body {
+	padding-left: 20px;
+	padding-right: 20px;
+}

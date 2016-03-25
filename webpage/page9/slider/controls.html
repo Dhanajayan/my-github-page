@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="control-style.css"/>
+		<script type="text/javascript">
+			function showDef(t) {
+
+			//	alert('value'+ t);
+				top.content.mediate.style.visibility = "hidden";
+				top.content.mediate = top.content.document.getElementById("def" + t);
+				top.content.mediate.style.visibility = "visible";
+				
+			} 
+		</script>
+	</head>
+<body>
+	<ul>
+		<li>HOME</li>
+		<li onclick = "showDef(0);">INAUGARATION</li>
+		<li onclick= "showDef(1);">MUSICIAN</li>
+		<li onclick= "showDef(2);">SEEKER</li>
+		<li onclick = "showDef(3);">GRAPES</li>
+		<li onclick = "showDef(4);">RECENT POSTS</li>
+	</ul>
+</body>
+</html>
