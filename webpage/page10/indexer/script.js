@@ -29,3 +29,5 @@ $(document).ready(function() {
 
 	//click action to show content
 });
+
+//end of script
