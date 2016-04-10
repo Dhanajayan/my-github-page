@@ -13,15 +13,10 @@ $(document).ready(function() {
 
 		$('#glass-sheet').fadeOut('slow');
 
-	/**	var pars = $('.divelement');
-		for(i =0; i<pars.length; i++ ) {
-			if(pars[0].id)
-				alert('hello');
-		}  */
-
-	});
-
 	//function for click on help icon
+	/**$('#home').click(function() {
+			$('#div3').scrollTop();
+	}); */
 
 	$('span:last-child').click(function() {
 			$('#indexe').removeAttr("style");
