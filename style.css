@@ -240,7 +240,6 @@ a:hover{
 	background: -moz-linear-gradient(90deg,#2ECC71,#27AE60);
 	background: -o-linear-gradient(90deg,#2ECC71,#27AE60);
 	background: linear-gradient(90deg, #F1C40F, #F39C12);
-	
 	border: 0px;
 	width: 100px;
 	color: white;
@@ -326,6 +325,7 @@ a:hover{
 	background: linear-gradient(90deg, #F1C40F, #F39C12);
 	
 }
+
 
 /*** media adjustment  ***/
 

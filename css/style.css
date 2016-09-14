@@ -235,26 +235,19 @@ ul li:hover {
 #name {
 	color: #555;
     border-radius: 12%;
-    width: 900px;
+    width: 555px;
     margin: auto;
-    background-color: rgba(246, 246, 189, 1);
     overflow: hidden;
-    margin-top: 10px;
+    margin-top: 70px;
     margin-bottom: 10px;
-    -webkit-box-shadow: 5px 5px 50px -30px black;
-    -o-box-shadow: 5px 5px 50px -30px black;
-    -moz-box-shadow: 5px 5px 50px -30px black;
-    box-shadow: 5px 5px 50px -30px black;
-
 }
 
 #author-desc {
-    padding-right: 0px;
-    padding-left: 15px;
     width: 554px;
     float: left;
     padding-top: 20px;
     font-weight: bold;
+    text-align: center;
 }
 
 #author-desc h1 {
@@ -267,6 +260,10 @@ ul li:hover {
     left: 646px;
 }
 
+.dp-menu-bar {
+    position: absolute;
+    top: 0;
+}
 
 
 .first-image img {
