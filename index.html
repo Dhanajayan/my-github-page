@@ -20,9 +20,16 @@
              <p class="dynamic-pad">I am a front-end developer,but most of the time I like to call me as 'Programmer'. I like programming, web, problem solving, challenges, good design. :)</p>
              <p>Some of my designs that I have made is here.</p>
              <p>I am available on Twitter and email.</p>
-             <a href="http://www.facebook.com/Dhananjayan8" title="facebook"><i class="fa fa-facebook fa-1x web-social"></i></a>
-             <a href="https://twitter.com/dhananvinay" title="twitter"><i class="fa fa-twitter fa-1x web-social"></i></a>
-             <a href="https://github.com/dhanajayan" title="github"><i class="fa fa-github fa-1x web-social"></i></a>
+            <a href="http://www.facebook.com/Dhananjayan8" title="facebook" class="websocial">
+                <i class="fa fa-facebook fa-1x"></i>
+            </a>
+            <a href="https://twitter.com/dhananvinay" title="twitter" class="websocial">
+                <i class="fa fa-twitter fa-1x"></i>
+            </a>
+            <a href="https://github.com/dhanajayan" title="github" class="websocial">
+                <i class="fa fa-github fa-1x"></i>
+            </a>
+            <p>[root@dhananjayan]$ <span class="cursor-blink">|</span></p>
         </article>
     </section>
     <style type="text/css">
@@ -35,6 +42,10 @@
             font-family: 'Inconsolata';
             color: green;
             background-color: #000;
+        }
+        .websocial {
+            color: green;
+            /*padding: 0 5px;*/
         }
         section.full-width {
             width: 100%;
@@ -51,6 +62,24 @@
             font-size: 2em;
         }
         
+        .cursor-blink {
+            opacity: 1;
+            -webkit-animation-name: blink; /* Chrome, Safari, Opera */
+            -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+            animation-name: blink;
+            animation-duration: 4s;
+        }
+        /* Chrome, Safari, Opera */
+        @-webkit-keyframes blink {
+            from {opacity: 1;}
+            to {opacity: 0;}
+        }
+
+        /* Standard syntax */
+        @keyframes blink {
+            from {opacity: 1;}
+            to {opacity: 0;}
+        }
         @media only screen and (min-width: 1200px) {
             .dynamic-pad {
                 padding: 0 200px;
